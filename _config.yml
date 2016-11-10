@@ -9,11 +9,10 @@ collections:
     title: Uploads
     output: true
 email: aneesha@fresherfoundry.com
-description: 'Write an awesome description for your new site here. You can edit this
+description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-
-'
+permalink: pretty
 url: https://www.fresherfoundry.com
 markdown: kramdown
 gems:
@@ -22,7 +21,6 @@ gems:
 sass:
   sass_dir: _sass
   style: compressed
-permalink: pretty
 exclude:
 - gulpfile.js
 - Gemfile
@@ -33,3 +31,7 @@ exclude:
 - ".gitignore"
 facebook:
   publisher: https://www.facebook.com/fresherfoundry/
+social:
+  name: Fresher Foundry
+  links:
+  - https://www.facebook.com/fresherfoundry
