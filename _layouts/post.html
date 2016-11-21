@@ -20,69 +20,83 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-md-9 mb-xs-24">
-                {% for post in site.posts %}
                 <div class="post-snippet mb64">
-                    <a href="#">
-                        <img class="mb24" alt="Post Image" src="/assets/img/blog-single-4.jpg" />
-                    </a>
+                    <img class="mb24" alt="Post Image" src="/assets/img/blog-single.jpg" />
                     <div class="post-title">
                         <span class="label">23 Sep</span>
-                        <a href="{{ post.url }}">
-                            <h4 class="inline-block">{{ post.title }}</h4>
-                        </a>
+                        <h4 class="inline-block">{{ page.title }}</h4>
                     </div>
                     <ul class="post-meta">
                         <li>
                             <i class="ti-user"></i>
                             <span>Written by
-                              <a href="#">{{ post.author }}</a>
+                                <a href="#">{{ page.author }}</a>
                             </span>
                         </li>
                         <li>
                             <i class="ti-tag"></i>
                             <span>Tagged as
-                              <a href="#">Lifestyle</a>
+                                <a href="#">Lifestyle</a>
                             </span>
                         </li>
                     </ul>
                     <hr>
-                    <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                    </p>
-                    <a class="btn btn-sm" href="#">Read More</a>
+                    {{ page.content | markdownify }}
                 </div>
                 <!--end of post snippet-->
-                {% endfor %}                
-                <div class="text-center">
-                    <ul class="pagination">
+                <hr>
+                <div class="comments">
+                    <h5 class="uppercase">3 Comments</h5>
+                    <ul class="comments-list">
                         <li>
-                            <a href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
-                        <li class="active">
-                            <a href="#">1</a>
+                            <div class="avatar">
+                                <img alt="Avatar" src="/assets/img/avatar1.png" />
+                            </div>
+                            <div class="comment">
+                                <span class="uppercase author">Jane Lovell, September 8</span>
+                                <a class="btn btn-sm" href="#">Reply</a>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="avatar">
+                                        <img alt="Avatar" src="/assets/img/avatar2.png" />
+                                    </div>
+                                    <div class="comment">
+                                        <span class="uppercase author">Tim Jackson, September 8</span>
+                                        <a class="btn btn-sm" href="#">Reply</a>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li>
-                            <a href="#">5</a>
-                        </li>
-                        <li>
-                            <a href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
+                            <div class="avatar">
+                                <img alt="Avatar" src="/assets/img/avatar3.png" />
+                            </div>
+                            <div class="comment">
+                                <span class="uppercase author">Roland Sims, September 9</span>
+                                <a class="btn btn-sm" href="#">Reply</a>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
                         </li>
                     </ul>
+                    <hr>
+                    <h5 class="uppercase">Leave A Comment</h5>
+                    <form>
+                        <input name="name" type="text" placeholder="Your Name" />
+                        <input name="email" type="text" placeholder="Email Address" />
+                        <textarea rows="3" placeholder="Comment"></textarea>
+                        <input type="submit" value="Leave Comment" />
+                    </form>
                 </div>
+                <!--end of comments-->
             </div>
             <!--end of nine col-->
             <div class="col-md-3 hidden-sm">
