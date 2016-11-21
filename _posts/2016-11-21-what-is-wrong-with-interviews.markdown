@@ -1,6 +1,7 @@
 ---
 title: What is wrong with Interviews?
 date: 2016-11-21 15:05:00 +05:30
+author: Aneesha Pillai
 ---
 
 The most engaging activity in the entire process of recruitment is an Interview. And, interviews have inherent flaws. The keys ones are ...
