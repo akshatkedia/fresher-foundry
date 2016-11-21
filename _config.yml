@@ -5,15 +5,14 @@ collections:
   authors:
     title: Authors
     output: true
+  collections:
+    title: Collections
+    output: false
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
-    output: true
-  collections:
-  authors:
-    title: Authors
     output: true
 defaults:
 - scope:
