@@ -1,6 +1,7 @@
 ---
 title: Watch this if you are an enterprising business leader
 date: 2016-11-21 15:12:00 +05:30
+author: Aneesha Pillai
 ---
 
 Emerging technologies can fuel a decade of rapid innovation in products, services, business processes, and go-to-market strategies.
