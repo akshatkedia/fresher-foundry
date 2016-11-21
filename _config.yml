@@ -8,6 +8,24 @@ collections:
   uploads:
     title: Uploads
     output: true
+  collections:
+  authors:
+    title: Authors
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: authors
+  values:
+    permalink: "/blog/authors/:title/"
+    layout: author
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author: Aneesha Pillai
 email: aneesha@fresherfoundry.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
