@@ -26,7 +26,7 @@ testimonials:
     but if you do what you don’t like, it is stress. Fresher Foundry's experiential
     evaluation helped us match our engineers to roles based on their competency and
     interest.
-  company: 
+  company: Head of HR, L&T EAIC
 layout: index
 ---
 
