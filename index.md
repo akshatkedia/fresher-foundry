@@ -19,6 +19,9 @@ customers:
 - name: 
   image: "/uploads/TIMSCDR%20Combined%20Logo.jpg"
   link: 
+- name: 
+  image: "/uploads/tseclogo.jpg"
+  link: 
 testimonials:
 - name: Mr. Debabrata Mohapatra
   image: "/uploads/Debrabrata%20Mohapatra_L&T%20eaic.jpg"
