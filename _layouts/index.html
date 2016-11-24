@@ -94,39 +94,39 @@ layout: default
     </div>
     <!--end of container-->
 </section>
-<section>
+<section class="bg-primary">
     <div class="container">
         <div class="row mb64 mb-xs-24">
             <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
-                <h3>Our Expertise</h3>
+                <h3>Our Services</h3>
             </div>
         </div>
         <!--end of row-->
         <div class="row">
             <div class="col-md-5 col-md-offset-1 col-sm-6 mb40 mb-xs-24">
-                <i class="ti-layers icon inline-block mb16 fade-3-4"></i>
-                <h4>Modular Design</h4>
+                <i class="fa fa-coffee icon icon-white inline-block mb16"></i>
+                <h4>EMERGING TECH COFFEE SESSION</h4>
                 <p>
                     With a plethora of purpose-built content blocks, colors and fonts, Foundry presents a mind-boggling number of combinations. Test drive the builder now!
                 </p>
             </div>
             <div class="col-md-5 col-sm-6 mb40 mb-xs-24">
-                <i class="ti-gallery icon inline-block mb16 fade-3-4"></i>
-                <h4>Silky Parallax</h4>
+                <i class="fa fa-bolt icon icon-white inline-block mb16"></i>
+                <h4>EMERGING TECH DEEP DIVE</h4>
                 <p>
                     We've built a buttery smooth parallax scrolling experience with a heavy focus on performance. Extensively tested across a range of browser and mouse types.
                 </p>
             </div>
             <div class="col-md-5 col-md-offset-1 col-sm-6 mb40 mb-xs-24">
-                <i class="ti-package icon inline-block mb16 fade-3-4"></i>
-                <h4>Unique Concepts</h4>
+                <i class="fa fa-flask icon icon-white inline-block mb16"></i>
+                <h4>EMERGING TECH LABS</h4>
                 <p>
                     10 Fresh and unique concepts included out of the box. From portfolio to property showcase, Foundry's adaptable look is perfect for your next project.
                 </p>
             </div>
             <div class="col-md-5 col-sm-6 mb40 mb-xs-24">
-                <i class="ti-infinite icon inline-block mb16 fade-3-4"></i>
-                <h4>Infinite Possibility</h4>
+                <i class="ti-infinite icon icon-white inline-block mb16"></i>
+                <h4>EXPERIENTIAL EVALUATION</h4>
                 <p>
                     With over 100 pre-made HTML templates included, it's easier than ever to find a look that suits you. If not, just create your own with Variant Page Builder!
                 </p>
@@ -140,10 +140,7 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb16">Lightbox Grid Gallery</h4>
-                <p class="lead mb64">
-                    A simple lightbox grid with square thumbnails.
-                </p>
+                <h3 class="mb16">Some amazing companies we've had the pleasure to work with</h3>
             </div>
         </div>
         <!--end of row-->
@@ -151,62 +148,15 @@ layout: default
             <div class="col-sm-12">
                 <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
                     <ul>
+                        {% for customer in page.customers %}
                         <li>
                             <a href="img/cover1.jpg" data-lightbox="true">
                                 <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/cover1.jpg" />
+                                    <img alt="image" class="background-image" src="{{ customer.image }}" />
                                 </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="/assets/img/home12.jpg" data-lightbox="true">
-                                <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/home12.jpg" />
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/assets/img/home14.jpg" data-lightbox="true">
-                                <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/home14.jpg" />
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/assets/img/home17.jpg" data-lightbox="true">
-                                <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/home17.jpg" />
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/assets/img/cover5.jpg" data-lightbox="true">
-                                <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/cover5.jpg" />
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/assets/img/cover6.jpg" data-lightbox="true">
-                                <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/cover6.jpg" />
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/assets/img/cover7.jpg" data-lightbox="true">
-                                <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/cover7.jpg" />
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/assets/img/cover8.jpg" data-lightbox="true">
-                                <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="/assets/img/cover8.jpg" />
-                                </div>
-                            </a>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <!--end of lightbox gallery-->
@@ -221,36 +171,19 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
-                <h3 class="mb48 mb-xs-32">Some amazing companies we've had the pleasure to work with.</h3>
+                <h3 class="mb48 mb-xs-32">Testimonials</h3>
                 <div class="text-slider slider-paging-controls text-center relative">
                     <ul class="slides">
+                        {% for testimonial in page.testimonials %}
                         <li>
-                            <h5>The guys at Foundry were an absolute pleasure to work with - they took on our project with the
-                                same enthusiasm and passion as us.</h5>
+                            <h5>{{ testimonial.testimonial }}</h5>
                             <div class="quote-author">
-                                <img alt="Author" class="image-xs mb16" src="/assets/img/avatar4.png" />
-                                <h6 class="uppercase mb0">Anna Thompson</h6>
-                                <span>Vault</span>
+                                <img alt="{{ testimonial.name }}" class="image-xs mb16" src="{{ testimonial.image }}" />
+                                <h6 class="uppercase mb0">{{ testimonial.name }}</h6>
+                                <span>{{ testimonial.company }}</span>
                             </div>
                         </li>
-                        <li>
-                            <h5>We've worked with Foundry on our web presence over the past 8 years and always relish the opportunity
-                                to work alongside them.</h5>
-                            <div class="quote-author">
-                                <img alt="Author" class="image-xs mb16" src="/assets/img/avatar3.png" />
-                                <h6 class="uppercase mb0">Carl Vance</h6>
-                                <span>Aviary Bar</span>
-                            </div>
-                        </li>
-                        <li>
-                            <h5>There is only once choice when it comes to our marketing collateral, Foundry always deliver inspiring
-                                work on-time and budget.</h5>
-                            <div class="quote-author">
-                                <img alt="Author" class="image-xs mb16" src="/assets/img/avatar6.png" />
-                                <h6 class="uppercase mb0">Natasha Canter</h6>
-                                <span>Vault</span>
-                            </div>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
