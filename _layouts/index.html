@@ -146,11 +146,11 @@ layout: default
         <!--end of row-->
         <div class="row">
             <div class="col-sm-12">
-                <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
+                <div class="lightbox-grid square-thumbs">
                     <ul>
                         {% for customer in page.customers %}
                         <li>
-                            <a href="img/cover1.jpg" data-lightbox="true">
+                            <a href="{{ customer.link }}" target="_blank">
                                 <div class="background-image-holder">
                                     <img alt="image" class="background-image" src="{{ customer.image }}" />
                                 </div>
@@ -166,7 +166,6 @@ layout: default
     </div>
     <!--end of container-->
 </section>
-<a id="clients"></a>
 <section class="pt-xs-80 pb-xs-80">
     <div class="container">
         <div class="row">

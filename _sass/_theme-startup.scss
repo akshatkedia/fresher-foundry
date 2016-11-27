@@ -64,6 +64,9 @@ body.boxed-layout,
   left: 0;
   right: 0;
 }
+a:hover {
+  cursor: pointer;
+}
 ul {
   list-style: none;
 }
@@ -687,6 +690,10 @@ footer.bg-dark li,
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   opacity: 0;
+}
+.square-thumbs .background-image-holder {
+  background-size: contain;
+  background-repeat: no-repeat !important;
 }
 .background-image-holder img {
   display: none;
