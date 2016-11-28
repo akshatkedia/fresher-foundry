@@ -55,3 +55,11 @@ social:
   name: Fresher Foundry
   links:
   - https://www.facebook.com/fresherfoundry
+phone: "+919819954714"
+address: |-
+  H-68, 0/2, <br>
+  Sector - 4, Nerul,<br>
+  Navi Mumbai - 400706
+logo: "/uploads/logo-light.png"
+paginate: 5
+paginate_path: "/blog/page:num/"
