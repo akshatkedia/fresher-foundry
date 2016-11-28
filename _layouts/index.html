@@ -11,7 +11,7 @@ layout: default
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
                 <img alt="Logo" class="image-small mb40 mb-xs-0" src="/assets/img/logo-light.png" />
                 <h4 class="mb56 mb-xs-24">
-                    Foundry is a digital design collective, tailoring experiences in web and print for clients all around the globe.
+                  {{ site.description }}
                 </h4>
                 <a class="btn btn-lg btn-white mb0" href="#contact">Make An Enquiry</a>
             </div>
@@ -93,6 +93,15 @@ layout: default
         <!--end of row-->
     </div>
     <!--end of container-->
+    <div class="container">
+        <div class="row mt96">
+            <div class="col-md-12 col-sm-10 col-sm-offset- text-center">
+                <h3 class="mb-xs-32">Technology is moving so quickly that it has become challenging to even pay attention. As progressive businesses and educational institutes, you cannot afford to ignore it. We help you demystify emerging technology and harness its power to stay ahead in the game.</h3>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
 </section>
 <section class="bg-primary">
     <div class="container">
@@ -107,28 +116,28 @@ layout: default
                 <i class="fa fa-coffee icon icon-white inline-block mb16"></i>
                 <h4>EMERGING TECH COFFEE SESSION</h4>
                 <p>
-                    With a plethora of purpose-built content blocks, colors and fonts, Foundry presents a mind-boggling number of combinations. Test drive the builder now!
+                  Help business leaders make better technology decisions.
                 </p>
             </div>
             <div class="col-md-5 col-sm-6 mb40 mb-xs-24">
                 <i class="fa fa-bolt icon icon-white inline-block mb16"></i>
                 <h4>EMERGING TECH DEEP DIVE</h4>
                 <p>
-                    We've built a buttery smooth parallax scrolling experience with a heavy focus on performance. Extensively tested across a range of browser and mouse types.
+                  Empower practicing engineers with hands-on working knowledge.
                 </p>
             </div>
             <div class="col-md-5 col-md-offset-1 col-sm-6 mb40 mb-xs-24">
                 <i class="fa fa-flask icon icon-white inline-block mb16"></i>
                 <h4>EMERGING TECH LABS</h4>
                 <p>
-                    10 Fresh and unique concepts included out of the box. From portfolio to property showcase, Foundry's adaptable look is perfect for your next project.
+                  Create infrastructure to work on emerging technologies.
                 </p>
             </div>
             <div class="col-md-5 col-sm-6 mb40 mb-xs-24">
                 <i class="ti-infinite icon icon-white inline-block mb16"></i>
                 <h4>EXPERIENTIAL EVALUATION</h4>
                 <p>
-                    With over 100 pre-made HTML templates included, it's easier than ever to find a look that suits you. If not, just create your own with Variant Page Builder!
+                  Evaluate engineers through Hardware hackathons.
                 </p>
             </div>
         </div>
@@ -140,12 +149,12 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h3 class="mb16">Some amazing companies we've had the pleasure to work with</h3>
+                <h3 class="mb16">Some amazing customers we've had the pleasure to work with</h3>
             </div>
         </div>
         <!--end of row-->
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-10 col-sm-offset-1">
                 <div class="lightbox-grid square-thumbs">
                     <ul>
                         {% for customer in page.customers %}
@@ -165,27 +174,29 @@ layout: default
         <!--end of row-->
     </div>
     <!--end of container-->
-</section>
-<section class="pt-xs-80 pb-xs-80">
     <div class="container">
+        <div class="row mb24 mt48 mb-xs-24">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                <h3>People like you love Foundry</h3>
+            </div>
+        </div>
+        <!--end of row-->
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
-                <h3 class="mb48 mb-xs-32">Testimonials</h3>
-                <div class="text-slider slider-paging-controls text-center relative">
-                    <ul class="slides">
-                        {% for testimonial in page.testimonials %}
-                        <li>
-                            <h5>{{ testimonial.testimonial }}</h5>
-                            <div class="quote-author">
-                                <img alt="{{ testimonial.name }}" class="image-xs mb16" src="{{ testimonial.image }}" />
-                                <h6 class="uppercase mb0">{{ testimonial.name }}</h6>
-                                <span>{{ testimonial.company }}</span>
-                            </div>
-                        </li>
-                        {% endfor %}
-                    </ul>
+            {% for testimonial in page.testimonials %}
+            <div class="col-sm-4 text-center">
+                <div class="feature boxed cast-shadow-light">
+                    <img alt="Pic" class="image-small img-circle inline-block mb24" src="{{ testimonial.image }}" />
+                    <h4>"Polished, Incredible!"</h4>
+                    <p>
+                      {{ testimonial.testimonial }}
+                    </p>
+                    <span>
+                        <strong>{{ testimonial.name }}</strong><br>
+                        {{ testimonial.company }}
+                    </span>
                 </div>
             </div>
+            {% endfor %}
         </div>
         <!--end of row-->
     </div>
@@ -201,15 +212,13 @@ layout: default
                 </p>
                 <hr>
                 <p>
-                    438 Marine Parade
-                    <br /> Elwood, Victoria
-                    <br /> P.O Box 3184
+                    {{ site.address | markdownify }}
                 </p>
                 <hr>
                 <p>
-                    <strong>E:</strong> hello@foundry.net
+                    <strong>E:</strong> {{ site.email }}
                     <br />
-                    <strong>P:</strong> +614 3948 2726
+                    <strong>P:</strong> {{ site.phone }}
                     <br />
                 </p>
             </div>
