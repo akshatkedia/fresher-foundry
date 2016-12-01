@@ -72,8 +72,13 @@ layout: default
     </div>
     <!--end of container-->
 </section>
-<section class="p0">
+<section>
     <div class="containr">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb64 mb-xs-40">Team</h4>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 p0">
                 <div class="image-tile inner-title hover-reveal text-center mb0">
@@ -111,56 +116,24 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb64 mb-xs-40">Previous Collaborators</h4>
+                <h4 class="uppercase mb64 mb-xs-40">Advisors</h4>
             </div>
         </div>
-        <!--end of row-->
         <div class="row">
-            <div class="logo-carousel">
-                <ul class="slides">
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l1.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l2.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l3.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l4.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l1.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l2.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l3.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img alt="Logo" src="/assets/img/l4.png" />
-                        </a>
-                    </li>
-                </ul>
+            {% for advisor in page.advisors %}
+            <div class="col-md-4 col-sm-6">
+                <div class="image-tile outer-title text-center">
+                    <img alt="Pic" src="{{ advisor.image }}" />
+                    <div class="title mb16">
+                        <h5 class="uppercase mb0">{{ advisor.name }}</h5>
+                        <span>{{ advisor.company }}</span>
+                    </div>
+                    <p class="mb0">
+                      {{ advisor.info }}
+                    </p>
+                </div>
             </div>
-            <!--end of logo slider-->
+            {% endfor %}
         </div>
         <!--end of row-->
     </div>
