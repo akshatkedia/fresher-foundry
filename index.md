@@ -31,7 +31,7 @@ testimonials:
     interest.
   company: Head of HR, L&T EAIC
 featured images:
-- vertical:
+  vertical:
   - image: "/uploads/1.jpg"
     caption: 
   - image: "/uploads/2.jpg"
