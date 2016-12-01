@@ -30,6 +30,21 @@ testimonials:
     evaluation helped us match our engineers to roles based on their competency and
     interest.
   company: Head of HR, L&T EAIC
+featured images:
+- vertical:
+  - image: "/uploads/1.jpg"
+    caption: 
+  - image: "/uploads/2.jpg"
+    caption: 
+  - image: "/uploads/4.jpg"
+    caption: 
+  horizontal:
+  - image: "/uploads/3.jpg"
+    caption: 
+  - image: "/uploads/5.jpg"
+    caption: 
+  - image: "/uploads/1-f63b3c.jpg"
+    caption: 
 layout: index
 ---
 
