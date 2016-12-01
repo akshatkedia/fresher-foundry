@@ -26,10 +26,12 @@ advisors:
   image: "/uploads/Yogesh%20Upadhyaya.jpg"
   linkedin: https://in.linkedin.com/in/yogeshupadhyaya
   facebook: https://www.facebook.com/yogesh.upadhyaya
+  company: 
 - name: M D Agrawal
   image: "/uploads/M%20D%20Agrawal.jpg"
   linkedin: https://in.linkedin.com/in/m-d-agrawal-7a792510
   facebook: 
+  Key: 
 layout: about
 ---
 
