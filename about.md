@@ -21,16 +21,15 @@ team:
   linkedin: https://in.linkedin.com/in/hhshatimsaifee
   facebook: https://www.facebook.com/hhshatimsaifee
   position: 
+advisors:
 - name: Yogesh Upadhyay
-  image: 
+  image: "/uploads/Yogesh%20Upadhyaya.jpg"
   linkedin: https://in.linkedin.com/in/yogeshupadhyaya
   facebook: https://www.facebook.com/yogesh.upadhyaya
-  position: Advisor
 - name: M D Agrawal
-  image: 
+  image: "/uploads/M%20D%20Agrawal.jpg"
   linkedin: https://in.linkedin.com/in/m-d-agrawal-7a792510
   facebook: 
-  position: Advisor
 layout: about
 ---
 
