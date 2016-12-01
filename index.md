@@ -2,25 +2,28 @@
 title: Home
 customers:
 - name: 
-  image: "/uploads/efygroup_logo.jpg"
+  image: "/uploads/8.png"
   link: 
 - name: 
-  image: "/uploads/India-Electronics-Week_20161.jpg"
+  image: "/uploads/6.png"
   link: 
 - name: 
-  image: "/uploads/l&T.jpg"
+  image: "/uploads/7.png"
   link: 
 - name: 
-  image: "/uploads/lt_logo.jpg"
+  image: "/uploads/5.png"
   link: 
 - name: 
-  image: "/uploads/makerfest.jpg"
+  image: "/uploads/4.png"
   link: 
 - name: 
-  image: "/uploads/TIMSCDR%20Combined%20Logo.jpg"
+  image: "/uploads/3.png"
   link: 
 - name: 
-  image: "/uploads/tseclogo.jpg"
+  image: "/uploads/2.png"
+  link: 
+- name: 
+  image: "/uploads/1.png"
   link: 
 testimonials:
 - name: Mr. Debabrata Mohapatra
@@ -30,6 +33,21 @@ testimonials:
     evaluation helped us match our engineers to roles based on their competency and
     interest.
   company: Head of HR, L&T EAIC
+featured images:
+  vertical:
+  - image: "/uploads/1.jpg"
+    caption: 
+  - image: "/uploads/2.jpg"
+    caption: 
+  - image: "/uploads/4.jpg"
+    caption: 
+  horizontal:
+  - image: "/uploads/3.jpg"
+    caption: 
+  - image: "/uploads/5.jpg"
+    caption: 
+  - image: "/uploads/1-f63b3c.jpg"
+    caption: 
 layout: index
 ---
 
