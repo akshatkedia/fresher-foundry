@@ -35,19 +35,21 @@ testimonials:
   company: Head of HR, L&T EAIC
 featured images:
   vertical:
-  - image: "/uploads/1.jpg"
+  - image: "/uploads/1-e58142.jpg"
     caption: 
-  - image: "/uploads/2.jpg"
+  - image: "/uploads/2-f5d8ec.jpg"
     caption: 
-  - image: "/uploads/4.jpg"
+  - image: "/uploads/3-949a4d.jpg"
     caption: 
   horizontal:
   - image: "/uploads/3.jpg"
     caption: 
   - image: "/uploads/5.jpg"
     caption: 
-  - image: "/uploads/1-f63b3c.jpg"
+  - image: "/uploads/6.jpg"
     caption: 
+services:
+- 
 layout: index
 ---
 
