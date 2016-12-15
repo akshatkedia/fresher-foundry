@@ -51,3 +51,4 @@ featured images:
 layout: index
 ---
 
+Technology is moving so quickly that it has become challenging to even pay attention. As progressive businesses and educational institutes, you cannot afford to ignore it. We help you demystify emerging technology and harness its power to stay ahead in the game.
