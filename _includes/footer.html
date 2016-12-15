@@ -9,24 +9,12 @@
                     <h6 class="title">Recent Posts</h6>
                     <hr>
                     <ul class="link-list recent-posts">
+                        {% for post in site.posts %}
                         <li>
-                            <a href="#">Hugging pugs is super trendy</a>
-                            <span class="date">February
-                                <span class="number">14, 2015</span>
-                            </span>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            <span class="date">{{ post.date | date_to_string }}</span>
                         </li>
-                        <li>
-                            <a href="#">Spinning vinyl is oh so cool</a>
-                            <span class="date">February
-                                <span class="number">9, 2015</span>
-                            </span>
-                        </li>
-                        <li>
-                            <a href="#">Superior theme design by pros</a>
-                            <span class="date">January
-                                <span class="number">27, 2015</span>
-                            </span>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <!--end of widget-->
