@@ -2,22 +2,22 @@
 title: About Us
 team:
 - name: Aneesha Pillai
-  image: 
+  image: "/uploads/4-1dd440.jpg"
   linkedin: https://www.linkedin.com/in/aneesha-pillai
   facebook: https://www.facebook.com/aneesha.pillai.56
   position: 
 - name: Deepak Gupta
-  image: 
+  image: "/uploads/2-55a38c.jpg"
   linkedin: https://in.linkedin.com/in/dgupta85
   facebook: https://www.facebook.com/deepak.gupta.5688
   position: 
 - name: Mustafa Lokhandwala
-  image: 
+  image: "/uploads/1-ea505c.jpg"
   linkedin: https://in.linkedin.com/in/lokhandwalamustafa
   facebook: https://www.facebook.com/profile.php?id=1664054815&fref=ts
   position: 
 - name: Hatim Saifee
-  image: 
+  image: "/uploads/3-9d7ed5.jpg"
   linkedin: https://in.linkedin.com/in/hhshatimsaifee
   facebook: https://www.facebook.com/hhshatimsaifee
   position: 
