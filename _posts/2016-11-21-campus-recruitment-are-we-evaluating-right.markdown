@@ -2,6 +2,7 @@
 title: Campus Recruitment - Are we evaluating right?
 date: 2016-11-21 15:06:00 +05:30
 author: Aneesha Pillai
+featured image: "/uploads/Campus%20Recruitment%20-%20Are%20we%20evaluating%20right.jpg"
 ---
 
 Young graduates bring in fresh insights and a lot of enthusiasm with their willingness to experiment and think out of the box. They feed their organization’s innovation engine and are strategically significant for its growth. Most organizations use marks, aptitude test, technical test and an interview to hire graduates. Graduates often prefer certain job profiles based on limited industry exposure.

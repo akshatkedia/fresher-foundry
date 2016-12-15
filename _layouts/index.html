@@ -11,7 +11,7 @@ layout: default
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
                 <img alt="Logo" class="image-small mb40 mb-xs-0" src="/assets/img/logo-light.png" />
                 <h4 class="mb56 mb-xs-24">
-                  {{ site.description }}
+                  {{ content }}
                 </h4>
                 <a class="btn btn-lg btn-white mb0" href="#contact">Make An Enquiry</a>
             </div>
@@ -93,52 +93,43 @@ layout: default
         <!--end of row-->
     </div>
     <!--end of container-->
-    <div class="container">
-        <div class="row mt96">
-            <div class="col-md-12 col-sm-10 col-sm-offset- text-center">
-                <h3 class="mb-xs-32">Technology is moving so quickly that it has become challenging to even pay attention. As progressive businesses and educational institutes, you cannot afford to ignore it. We help you demystify emerging technology and harness its power to stay ahead in the game.</h3>
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
 </section>
 <section class="bg-primary">
     <div class="container">
         <div class="row mb64 mb-xs-24">
             <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
-                <h3>Our Services</h3>
+                <h2>Our Services</h2>
             </div>
         </div>
         <!--end of row-->
         <div class="row">
             <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
                 <i class="fa fa-coffee icon icon-white inline-block mb16"></i>
-                <h4>COFFEE SESSION</h4>
-                <p>
+                <h4>Coffee Session</h4>
+                <h5>
                   Help business leaders make better technology decisions.
-                </p>
+                </h5>
             </div>
             <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
                 <i class="fa fa-bolt icon icon-white inline-block mb16"></i>
-                <h4>DEEP DIVE</h4>
-                <p>
+                <h4>Deep Dive</h4>
+                <h5>
                   Empower practicing engineers with hands-on working knowledge.
-                </p>
+                </h5>
             </div>
             <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
                 <i class="fa fa-flask icon icon-white inline-block mb16"></i>
-                <h4>LABS</h4>
-                <p>
+                <h4>Labs</h4>
+                <h5>
                   Create infrastructure to work on emerging technologies.
-                </p>
+                </h5>
             </div>
             <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
                 <i class="ti-infinite icon icon-white inline-block mb16"></i>
-                <h4>EXPERIENTIAL EVALUATION</h4>
-                <p>
+                <h4>Evaluation</h4>
+                <h5>
                   Evaluate engineers through Hardware hackathons.
-                </p>
+                </h5>
             </div>
         </div>
         <!--end of row-->
@@ -157,7 +148,8 @@ layout: default
             <div class="col-sm-12">
                 <div class="lightbox-grid square-thumbs">
                     <ul>
-                        {% for customer in page.customers %}
+                        {% assign customers = page.customers | sort:"position" %}
+                        {% for customer in customers %}
                         <li>
                             <a href="{{ customer.link }}" target="_blank">
                                 <div class="background-image-holder">

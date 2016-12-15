@@ -23,7 +23,7 @@ layout: default
                 {% for post in paginator.posts %}
                 <div class="post-snippet mb64">
                     <a href="#">
-                        <img class="mb24" alt="Post Image" src="/assets/img/blog-single-4.jpg" />
+                        <img class="mb24" alt="Post Image" src="{{ post['featured image'] }}" />
                     </a>
                     <div class="post-title">
                         <span class="label">23 Sep</span>
