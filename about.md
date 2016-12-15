@@ -22,7 +22,7 @@ team:
   facebook: https://www.facebook.com/hhshatimsaifee
   position: 
 advisors:
-- name: Yogesh Upadhyay
+- name: Yogesh Upadhyaya
   image: "/uploads/Yogesh%20Upadhyaya.jpg"
   linkedin: https://in.linkedin.com/in/yogeshupadhyaya
   facebook: https://www.facebook.com/yogesh.upadhyaya
