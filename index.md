@@ -2,7 +2,7 @@
 title: Home
 customers:
 - name: 
-  image: "/uploads/8.png"
+  image: "/uploads/Fluid.AI%20logo.jpg"
   link: 
 - name: 
   image: "/uploads/6.png"
