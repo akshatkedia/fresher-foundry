@@ -2,7 +2,10 @@
 title: Home
 customers:
 - name: 
-  image: "/uploads/8.png"
+  image: "/uploads/2.png"
+  link: 
+- name: 
+  image: "/uploads/Fluid.AI%20logo.jpg"
   link: 
 - name: 
   image: "/uploads/6.png"
@@ -20,9 +23,6 @@ customers:
   image: "/uploads/3.png"
   link: 
 - name: 
-  image: "/uploads/2.png"
-  link: 
-- name: 
   image: "/uploads/1.png"
   link: 
 testimonials:
@@ -35,19 +35,22 @@ testimonials:
   company: Head of HR, L&T EAIC
 featured images:
   vertical:
-  - image: "/uploads/1.jpg"
+  - image: "/uploads/1-e58142.jpg"
     caption: 
-  - image: "/uploads/2.jpg"
+  - image: "/uploads/2-f5d8ec.jpg"
     caption: 
-  - image: "/uploads/4.jpg"
+  - image: "/uploads/3-949a4d.jpg"
     caption: 
   horizontal:
   - image: "/uploads/3.jpg"
     caption: 
   - image: "/uploads/5.jpg"
     caption: 
-  - image: "/uploads/1-f63b3c.jpg"
+  - image: "/uploads/6.jpg"
     caption: 
+services:
+- 
 layout: index
 ---
 
+Technology is moving so quickly that it has become challenging to even pay attention. As progressive businesses and educational institutes, you cannot afford to ignore it. We help you demystify emerging technology and harness its power to stay ahead in the game.
