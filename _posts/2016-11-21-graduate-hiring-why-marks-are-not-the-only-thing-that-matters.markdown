@@ -2,6 +2,7 @@
 title: Graduate Hiring - Why marks are not the only thing that matters?
 date: 2016-11-21 15:03:00 +05:30
 author: Aneesha Pillai
+featured image: "/uploads/Graduate%20Hiring%20-%20Why%20marks%20are%20not%20the%20only%20thing%20that%20matters.jpg"
 ---
 
 Almost all organizations recruiting engineering graduates require minimum aggregate of 60% or more throughout the student’s academic years. Are marks a holistic criterion to judge a student’s caliber? I seriously doubt.
