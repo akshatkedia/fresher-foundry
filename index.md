@@ -2,6 +2,9 @@
 title: Home
 customers:
 - name: 
+  image: "/uploads/2.png"
+  link: 
+- name: 
   image: "/uploads/Fluid.AI%20logo.jpg"
   link: 
 - name: 
@@ -18,9 +21,6 @@ customers:
   link: 
 - name: 
   image: "/uploads/3.png"
-  link: 
-- name: 
-  image: "/uploads/2.png"
   link: 
 - name: 
   image: "/uploads/1.png"
