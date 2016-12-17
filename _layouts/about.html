@@ -108,7 +108,7 @@ layout: default
         </div>
         <div class="row">
             {% for advisor in page.advisors %}
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 {% if forloop.first == true %}col-md-offset-2{% endif %} col-sm-6">
                 <div class="image-tile outer-title text-center">
                     <img alt="Pic" src="{{ advisor.image }}" />
                     <div class="title mb16">
@@ -121,6 +121,24 @@ layout: default
                 </div>
             </div>
             {% endfor %}
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<section class="pt0">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb64 mb-xs-40">Media</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="embed-video-container embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.media.video }}" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+            </div>
         </div>
         <!--end of row-->
     </div>
