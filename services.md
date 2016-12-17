@@ -17,7 +17,15 @@ services:
   description: 
   featured image: "/uploads/deep_dive.jpg"
   images:
-  - image: 
+  - image: "/uploads/2-67a043.JPG"
+    caption: 
+  - image: "/uploads/3-2cc71c.JPG"
+    caption: 
+  - image: "/uploads/4-779ebe.JPG"
+    caption: 
+  - image: "/uploads/5-6a73b3.JPG"
+    caption: 
+  - image: "/uploads/6-6e3859.JPG"
     caption: 
 - name: Evaluation
   description: 
