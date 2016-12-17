@@ -31,7 +31,14 @@ services:
   description: 
   featured image: "/uploads/evaluation.jpg"
   images:
-  - 
+  - image: "/uploads/1-3010cf.JPG"
+    caption: 
+  - image: "/uploads/2-5f828c.JPG"
+    caption: 
+  - image: "/uploads/3-6d579b.JPG"
+    caption: 
+  - image: "/uploads/4-6b5ba6.JPG"
+    caption: 
 layout: services
 ---
 
