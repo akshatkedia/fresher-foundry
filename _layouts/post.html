@@ -41,7 +41,7 @@ layout: default
                         </li>
                     </ul>
                     <hr>
-                    {{ page.content | markdownify }}
+                    {{ page.content | replace: '<iframe ', '<div class="embed-video-container embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item"' | replace: '</iframe>', '</iframe></div>' | markdownify }}
                 </div>
                 <!--end of post snippet-->
                 <hr>

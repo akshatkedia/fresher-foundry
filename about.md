@@ -35,8 +35,10 @@ advisors:
 media:
   video: L553eXERY0M
   articles:
-  - image: 
-    link: 
+  - image: "/uploads/The%20Week%20logo.jpg"
+    link: http://www.theweek.in/content/archival/magazine/theweek/cover/to-skill-a-mocking-herd.html
+  - image: "/uploads/ShethePeople_2.png"
+    link: http://shethepeople.tv/a-fresh-start-with-aneesha-pillai-founder-of-fresher-foundry/
 layout: about
 ---
 

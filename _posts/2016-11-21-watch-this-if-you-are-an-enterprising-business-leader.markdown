@@ -9,4 +9,4 @@ Emerging technologies can fuel a decade of rapid innovation in products, service
 
 Leaders should make sure to invest in their own technology knowledge; they don’t have to become programmers or compulsive Facebook posters, but they should keep abreast of technology trends and pay attention to what their most tech-savvy customers are doing and saying.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fku2TtjIH2A" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/fku2TtjIH2A" frameborder="0" allowfullscreen></iframe>

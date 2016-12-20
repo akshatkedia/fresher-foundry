@@ -22,7 +22,7 @@ layout: default
             <div class="col-md-9 mb-xs-24">
                 {% for post in paginator.posts %}
                 <div class="post-snippet mb64">
-                    <a href="#">
+                    <a href="{{ post.url }}">
                         <img class="mb24" alt="Post Image" src="{{ post['featured image'] }}" />
                     </a>
                     <div class="post-title">

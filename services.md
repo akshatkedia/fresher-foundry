@@ -33,21 +33,6 @@ services:
     caption: 
   - image: "/uploads/6-6e3859.JPG"
     caption: 
-- name: Evaluation
-  description: |-
-    Random allocation of graduate trainee engineers is often ineffective. Also, graduates are biased towards popular profiles such as R&D or Design. It is vital to match a graduate's competencies to relevant areas in order to enhance productivity.
-
-    We create one day sessions where new hires solve engineering problems and are assessed by experts on how they fared in profile specific challenges. We produce an comprehensive evaluation report which is used by organizations to achieve candidate - profile fit (likely to result in lower attrition).
-  featured image: "/uploads/evaluation.jpg"
-  images:
-  - image: "/uploads/1-3010cf.JPG"
-    caption: 
-  - image: "/uploads/2-5f828c.JPG"
-    caption: 
-  - image: "/uploads/3-6d579b.JPG"
-    caption: 
-  - image: "/uploads/4-6b5ba6.JPG"
-    caption: 
 - name: Labs
   description: |-
     The first step to pilot emerging technologies is to create an ecosystem for the engineers to pick problems around them and build solutions.
@@ -66,6 +51,21 @@ services:
   - image: "/uploads/IMG_6909.JPG"
     caption: 
   - image: "/uploads/IMG_6987.JPG"
+    caption: 
+- name: Evaluation
+  description: |-
+    Random allocation of graduate trainee engineers is often ineffective. Also, graduates are biased towards popular profiles such as R&D or Design. It is vital to match a graduate's competencies to relevant areas in order to enhance productivity.
+
+    We create one day sessions where new hires solve engineering problems and are assessed by experts on how they fared in profile specific challenges. We produce an comprehensive evaluation report which is used by organizations to achieve candidate - profile fit (likely to result in lower attrition).
+  featured image: "/uploads/evaluation.jpg"
+  images:
+  - image: "/uploads/1-3010cf.JPG"
+    caption: 
+  - image: "/uploads/2-5f828c.JPG"
+    caption: 
+  - image: "/uploads/3-6d579b.JPG"
+    caption: 
+  - image: "/uploads/4-6b5ba6.JPG"
     caption: 
 layout: services
 ---
