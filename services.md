@@ -1,7 +1,7 @@
 ---
 title: Services
 services:
-- name: Coffee Session
+- name: Coffee Sessions
   description: 
   featured image: "/uploads/coffee_session.jpg"
   images:
