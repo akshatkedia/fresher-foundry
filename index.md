@@ -39,7 +39,7 @@ featured images:
     caption: 
   - image: "/uploads/2-f5d8ec.jpg"
     caption: 
-  - image: "/uploads/3-949a4d.jpg"
+  - image: "/uploads/lab.jpg"
     caption: 
   horizontal:
   - image: "/uploads/3.jpg"
