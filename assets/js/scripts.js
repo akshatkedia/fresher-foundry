@@ -44,9 +44,6 @@ $(document).ready(function() {
         mr_scrollTop = window.pageYOffset;
     }, false);
 
-    // FitVids
-    $("#fitvids").fitVids();
-
     // Append .background-image-holder <img>'s as CSS backgrounds
 
     $('.background-image-holder').each(function() {
