@@ -13,7 +13,7 @@ services:
     caption: 
   - image: "/uploads/4-e510c7.JPG"
     caption: 
-- name: Deep Dive
+- name: Workshops
   description: 
   featured image: "/uploads/deep_dive.jpg"
   images:
