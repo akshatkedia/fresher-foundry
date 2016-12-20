@@ -72,7 +72,7 @@ layout: default
     </div>
     <!--end of container-->
 </section>
-<section class="pt0">
+<section class="pt0 team">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -87,6 +87,14 @@ layout: default
                     <div class="title mb16">
                         <h5 class="uppercase mb0">{{ member.name }}</h5>
                         <span>{{ member.position }}</span>
+                        <ul>
+                            {% if member.linkedin %}
+                            <li><a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                            {% endif %}
+                            {% if member.facebook %}
+                            <li><a href="{{ member.facebook }}" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+                            {% endif %}
+                        </ul>
                     </div>
                     <p class="mb0">
                       {{ member.info }}
@@ -99,7 +107,7 @@ layout: default
     </div>
     <!--end of container-->
 </section>
-<section class="pt0">
+<section class="pt0 team">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -114,6 +122,14 @@ layout: default
                     <div class="title mb16">
                         <h5 class="uppercase mb0">{{ advisor.name }}</h5>
                         <span>{{ advisor.company }}</span>
+                        <ul>
+                            {% if advisor.linkedin %}
+                            <li><a href="{{ advisor.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                            {% endif %}
+                            {% if advisor.facebook %}
+                            <li><a href="{{ advisor.facebook }}" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+                            {% endif %}
+                        </ul>
                     </div>
                     <p class="mb0">
                       {{ advisor.info }}
@@ -126,7 +142,7 @@ layout: default
     </div>
     <!--end of container-->
 </section>
-<section class="pt0">
+<section class="pt0 media">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -138,6 +154,15 @@ layout: default
                 <div class="embed-video-container embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.media.video }}" allowfullscreen="allowfullscreen"></iframe>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <ul class="mt24">
+                    {% for article in page.media.articles %}
+                    <li><a href="{{ article.link }}" target="_blank"><img src="{{ article.image }}" alt=""></a></li>
+                    {% endfor %}
+                </ul>
             </div>
         </div>
         <!--end of row-->

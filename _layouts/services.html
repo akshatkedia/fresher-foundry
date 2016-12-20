@@ -27,7 +27,7 @@ layout: default
     <div class="col-md-6 col-md-offset-1 content">
         <h3>{{ page.services[0].name }}</h3>
         <p class="mb0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            {{ page.services[0].description | markdownify }}
         </p>
         <p>
             <a href="{{ page.services[0]['featured image'] }}" data-lightbox="{{ page.services[0].name | downcase | slugify | append: "-link" }}">View Gallery</a>
@@ -49,7 +49,7 @@ layout: default
     <div class="col-md-6 content">
         <h3>{{ page.services[1].name }}</h3>
         <p class="mb0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            {{ page.services[1].description | markdownify }}
         </p>
         <p>
             <a href="{{ page.services[1]['featured image'] }}" data-lightbox="{{ page.services[1].name | downcase | slugify | append: "-link" }}">View Gallery</a>
@@ -71,7 +71,7 @@ layout: default
     <div class="col-md-6 col-md-offset-1 content">
         <h3>{{ page.services[2].name }}</h3>
         <p class="mb0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            {{ page.services[2].description | markdownify }}
         </p>
         <p>
             <a href="{{ page.services[2]['featured image'] }}" data-lightbox="{{ page.services[2].name | downcase | slugify | append: "-link" }}">View Gallery</a>
@@ -80,5 +80,27 @@ layout: default
     {% for image in page.services[2].images %}
         <a href="{{ image.image }}" data-lightbox="{{ page.services[2].name | downcase | slugify }}"></a>
         <a href="{{ image.image }}" data-lightbox="{{ page.services[2].name | downcase | slugify | append: "-link" }}"></a>
+    {% endfor %}
+</section>
+<section class="image-square right">
+    <div class="col-md-6 image">
+        <a href="{{ page.services[3]['featured image'] }}" data-lightbox="{{ page.services[3].name | downcase | slugify }}">
+            <div class="background-image-holder">
+                <img alt="image" class="background-image" src="{{ page.services[3]['featured image'] }}" />
+            </div>
+        </a>
+    </div>
+    <div class="col-md-6 content">
+        <h3>{{ page.services[3].name }}</h3>
+        <p class="mb0">
+            {{ page.services[3].description | markdownify }}
+        </p>
+        <p>
+            <a href="{{ page.services[3]['featured image'] }}" data-lightbox="{{ page.services[3].name | downcase | slugify | append: "-link" }}">View Gallery</a>
+        </p>
+    </div>
+    {% for image in page.services[3].images %}
+        <a href="{{ image.image }}" data-lightbox="{{ page.services[3].name | downcase | slugify }}"></a>
+        <a href="{{ image.image }}" data-lightbox="{{ page.services[3].name | downcase | slugify | append: "-link" }}"></a>
     {% endfor %}
 </section>
