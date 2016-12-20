@@ -53,15 +53,19 @@ services:
     The first step to pilot emerging technologies is to create an ecosystem for the engineers to pick problems around them and build solutions.
 
     We help organizations set up labs - right from need analysis, determining the space, equipment selection to validation and training. The right expertise can save considerable expense and time, and ensure that the lab is productive.
-  featured image: 
+  featured image: "/uploads/IMG_6871.JPG"
   images:
-  - image: 
+  - image: "/uploads/IMG_6886.JPG"
     caption: 
-  - image: 
+  - image: "/uploads/IMG_6864.JPG"
     caption: 
-  - image: 
+  - image: "/uploads/IMG_6879.JPG"
     caption: 
-  - image: 
+  - image: "/uploads/IMG_6904.JPG"
+    caption: 
+  - image: "/uploads/IMG_6909.JPG"
+    caption: 
+  - image: "/uploads/IMG_6987.JPG"
     caption: 
 layout: services
 ---
