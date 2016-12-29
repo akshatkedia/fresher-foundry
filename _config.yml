@@ -5,9 +5,9 @@ collections:
   authors:
     title: Authors
     output: true
-  collections:
-    title: Collections
-    output: false
+  categories:
+    title: Categories
+    output: true
   posts:
     title: Posts
     output: true
@@ -29,6 +29,7 @@ defaults:
     layout: post
     author: Aneesha Pillai
     featured image: 
+    category: 
 email: aneesha@fresherfoundry.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search

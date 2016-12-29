@@ -29,10 +29,18 @@ testimonials:
 - name: Mr. Debabrata Mohapatra
   image: "/uploads/Debrabrata%20Mohapatra_L&T%20eaic.jpg"
   testimonial: I strongly believe that if you do what you like then it is passion
-    but if you do what you don’t like, it is stress. Fresher Foundry's experiential
+    but if you do what you don’t like, it is stress. Future Foundry's experiential
     evaluation helped us match our engineers to roles based on their competency and
     interest.
   company: Head of HR, L&T EAIC
+- name: Mr. A.D. Shahane
+  image: "/uploads/shahane.jpg"
+  testimonial: Despite the short duration (2.5 hours), Fresher Foundry's technology
+    coffee sessions are never surface level. I am impressed with their ability to
+    create engaging demonstrations and curate relevant case studies on every technology.
+    After their series on industry 4.0, our employees are picking up pilot projects
+    to implement.
+  company: Vice President, Larsen & Toubro
 featured images:
   vertical:
   - image: "/uploads/1-e58142.jpg"

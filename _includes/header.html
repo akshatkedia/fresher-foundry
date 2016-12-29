@@ -1,6 +1,6 @@
 <div class="nav-container">
     <a id="top"></a>
-    <nav class="absolute transparent">
+    <nav class="absolute">
         <div class="nav-bar">
             <div class="module left">
                 <a href="/">
@@ -14,16 +14,16 @@
             <div class="module-group right">
                 <div class="module left">
                     <ul class="menu">
-                        <li>
+                        <li {% if page.url == '/' %}class="active"{% endif %}>
                             <a href="/">Home</a>
                         </li>
-                        <li>
+                        <li {% if page.url == '/about/' %}class="active"{% endif %}>
                             <a href="/about">About</a>
                         </li>
-                        <li>
+                        <li {% if page.url == '/services/' %}class="active"{% endif %}>
                             <a href="/services">Services</a>
                         </li>
-                        <li>
+                        <li {% if page.url contains '/blog/' %}class="active"{% endif %}>
                             <a href="/blog">Blog</a>
                         </li>
                     </ul>
