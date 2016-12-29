@@ -21,3 +21,15 @@ section {
     max-width: 200px;
   }
 }
+
+.nav-is-overlay .page-title-3.image-bg:first-child,
+.nav-is-overlay.page-title-3.bg-dark:first-child,
+.nav-is-overlay .page-title-4.image-bg:first-child,
+.nav-is-overlay.page-title-4.bg-dark:first-child {
+  height: 215px;
+  padding-top: 55px;
+}
+
+.menu .active a {
+  color: $color-orange;
+}
