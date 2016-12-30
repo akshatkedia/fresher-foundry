@@ -42,7 +42,7 @@ services:
   images:
   - image: "/uploads/IMG_6886.JPG"
     caption: 
-  - image: "/uploads/IMG_6864.JPG"
+  - image: "/uploads/IMG_6864-23ad2a.JPG"
     caption: 
   - image: "/uploads/IMG_6879.JPG"
     caption: 
