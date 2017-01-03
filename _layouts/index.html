@@ -3,9 +3,9 @@ layout: default
 ---
 
 <section class="bg-primary background-multiply pt240 pb240 pt-xs-120 pb-xs-120 overlay image-bg parallax">
-    <div class="background-image-holder">
+    <!-- <div class="background-image-holder">
         <img alt="image" class="background-image" src="/assets/img/home24.jpg" />
-    </div>
+    </div> -->
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
@@ -25,68 +25,50 @@ layout: default
         <div class="row row-gapless masonry masonryFlyIn">
             <div class="col-md-4 col-sm-6 masonry-item project" data-filter="People">
                 <div class="image-tile inner-title hover-reveal text-center">
-                    <a href="#">
-                        <img alt="Pic" src="{{ page['featured images'].vertical[0].image }}" />
-                        <div class="title">
-                            <h5 class="uppercase mb0">Happy Couple</h5>
-                            <span>People / Life</span>
-                        </div>
-                    </a>
+                    <img alt="{{ page['featured images'].vertical[0].caption }}" src="{{ page['featured images'].vertical[0].image }}" />
+                    <div class="title">
+                        <h5 class="uppercase mb0">{{ page['featured images'].vertical[0].caption }}</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 masonry-item project" data-filter="Animals">
                 <div class="image-tile inner-title hover-reveal text-center">
-                    <a href="#">
-                        <img alt="Pic" src="{{ page['featured images'].horizontal[0].image }}" />
-                        <div class="title">
-                            <h5 class="uppercase mb0">Lonely Dog</h5>
-                            <span>Animals / Art</span>
-                        </div>
-                    </a>
+                    <img alt="{{ page['featured images'].horizontal[0].caption }}" src="{{ page['featured images'].horizontal[0].image }}" />
+                    <div class="title">
+                        <h5 class="uppercase mb0">{{ page['featured images'].horizontal[0].caption }}</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 masonry-item project" data-filter="People">
                 <div class="image-tile inner-title hover-reveal text-center">
-                    <a href="#">
-                        <img alt="Pic" src="{{ page['featured images'].vertical[1].image }}" />
-                        <div class="title">
-                            <h5 class="uppercase mb0">Pondering Blonde</h5>
-                            <span>People / Life</span>
-                        </div>
-                    </a>
+                    <img alt="{{ page['featured images'].vertical[1].caption }}" src="{{ page['featured images'].vertical[1].image }}" />
+                    <div class="title">
+                        <h5 class="uppercase mb0">{{ page['featured images'].vertical[1].caption }}</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 masonry-item project" data-filter="Objects">
                 <div class="image-tile inner-title hover-reveal text-center">
-                    <a href="#">
-                        <img alt="Pic" src="{{ page['featured images'].vertical[2].image }}" />
-                        <div class="title">
-                            <h5 class="uppercase mb0">Vintage Typewriter</h5>
-                            <span>Objects / Isolated</span>
-                        </div>
-                    </a>
+                    <img alt="{{ page['featured images'].vertical[2].caption }}" src="{{ page['featured images'].vertical[2].image }}" />
+                    <div class="title">
+                        <h5 class="uppercase mb0">{{ page['featured images'].vertical[2].caption }}</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 masonry-item project" data-filter="Objects">
                 <div class="image-tile inner-title hover-reveal text-center">
-                    <a href="#">
-                        <img alt="Pic" src="{{ page['featured images'].horizontal[1].image }}" />
-                        <div class="title">
-                            <h5 class="uppercase mb0">Summer Lovin'</h5>
-                            <span>Objects / Food</span>
-                        </div>
-                    </a>
+                    <img alt="{{ page['featured images'].horizontal[1].caption }}" src="{{ page['featured images'].horizontal[1].image }}" />
+                    <div class="title">
+                        <h5 class="uppercase mb0">{{ page['featured images'].horizontal[1].caption }}</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 masonry-item project" data-filter="People">
                 <div class="image-tile inner-title hover-reveal text-center">
-                    <a href="#">
-                        <img alt="Pic" src="{{ page['featured images'].horizontal[2].image }}" />
-                        <div class="title">
-                            <h5 class="uppercase mb0">Thick Fog</h5>
-                            <span>People / Life</span>
-                        </div>
-                    </a>
+                    <img alt="{{ page['featured images'].horizontal[2].caption }}" src="{{ page['featured images'].horizontal[2].image }}" />
+                    <div class="title">
+                        <h5 class="uppercase mb0">{{ page['featured images'].horizontal[2].caption }}</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,7 +136,7 @@ layout: default
                         <li>
                             <a href="{{ customer.link }}" target="_blank">
                                 <div class="background-image-holder">
-                                    <img alt="image" class="background-image" src="{{ customer.image }}" />
+                                    <img alt="{{ customer.name }}" class="background-image" src="{{ customer.image }}" />
                                 </div>
                             </a>
                         </li>
@@ -179,10 +161,10 @@ layout: default
             <div class="col-sm-4 text-center">
                 <div class="feature boxed cast-shadow-light">
                     <img alt="Pic" class="image-small img-circle inline-block mb24" src="{{ testimonial.image }}" />
-                    <h4>"Polished, Incredible!"</h4>
-                    <p>
-                      {{ testimonial.testimonial }}
-                    </p>
+                    <h4>"{{ testimonial.adjective }}"</h4>
+                    <div class="testimonial">
+                        {{ testimonial.testimonial | markdownify }}
+                    </div>
                     <span>
                         <strong>{{ testimonial.name }}</strong><br>
                         {{ testimonial.company }}
@@ -201,17 +183,16 @@ layout: default
             <div class="col-sm-6 col-md-5">
                 <h4 class="uppercase">Get In Touch</h4>
                 <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
-                </p>
-                <hr>
-                <p>
                     {{ site.address | markdownify }}
                 </p>
                 <hr>
                 <p>
-                    <strong>E:</strong> {{ site.email }}
+                    For any service related queries:
+                </p>
+                <p>
+                    <strong>E:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
                     <br />
-                    <strong>P:</strong> {{ site.phone }}
+                    <strong>P:</strong> <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
                     <br />
                 </p>
             </div>
