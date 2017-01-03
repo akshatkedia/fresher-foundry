@@ -42,7 +42,7 @@ testimonials:
     create engaging demonstrations and curate relevant case studies on every technology.
     After their series on industry 4.0, our employees are picking up pilot projects
     to implement.
-  company: Vice President, Technical Corporate Training, Larsen & Toubro
+  company: Vice President, Corporate Training - Technical, Larsen & Toubro
   adjective: Engaging, Relevant!
 featured images:
   vertical:
