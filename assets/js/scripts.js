@@ -863,42 +863,31 @@ $(document).ready(function() {
 
                 jQuery.ajax({
                     type: "POST",
-                    url: "mail/mail.php",
-                    data: thisForm.serialize()+"&url="+window.location.href,
+                    url: thisForm.attr('action'),
+                    data: thisForm.serialize(),
+                    dataType: "json",
                     success: function(response) {
                         // Swiftmailer always sends back a number representing numner of emails sent.
                         // If this is numeric (not Swift Mailer error text) AND greater than 0 then show success message.
 
                         submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
 
-                        if ($.isNumeric(response)) {
-                            if (parseInt(response) > 0) {
-                                // For some browsers, if empty 'successRedirect' is undefined; for others,
-                                // 'successRedirect' is false.  Check for both.
-                                successRedirect = thisForm.attr('success-redirect');
-                                if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
-                                    window.location = successRedirect;
-                                }
-
-
-                                thisForm.find('input[type="text"]').val("");
-                                thisForm.find('textarea').val("");
-                                thisForm.find('.form-success').fadeIn(1000);
-
-                                formError.fadeOut(1000);
-                                setTimeout(function() {
-                                    formSuccess.fadeOut(500);
-                                }, 5000);
-                            }
+                        // For some browsers, if empty 'successRedirect' is undefined; for others,
+                        // 'successRedirect' is false.  Check for both.
+                        successRedirect = thisForm.attr('success-redirect');
+                        if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
+                            window.location = successRedirect;
                         }
-                        // If error text was returned, put the text in the .form-error div and show it.
-                        else {
-                            // Keep the current error text in a data attribute on the form
-                            formError.attr('original-error', formError.text());
-                            // Show the error with the returned error text.
-                            formError.text(response).fadeIn(1000);
-                            formSuccess.fadeOut(1000);
-                        }
+
+
+                        thisForm.find('input[type="text"]').val("");
+                        thisForm.find('textarea').val("");
+                        thisForm.find('.form-success').fadeIn(1000);
+
+                        formError.fadeOut(1000);
+                        setTimeout(function() {
+                            formSuccess.fadeOut(500);
+                        }, 5000);
                     },
                     error: function(errorObject, errorText, errorHTTP) {
                         // Keep the current error text in a data attribute on the form
