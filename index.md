@@ -28,10 +28,11 @@ customers:
 testimonials:
 - name: Mr. Debabrata Mohapatra
   image: "/uploads/Debrabrata%20Mohapatra_L&T%20eaic.jpg"
-  testimonial: I strongly believe that if you do what you like then it is passion
-    but if you do what you don’t like, it is stress. Future Foundry's experiential
-    evaluation helped us match our engineers to roles based on their competency and
-    interest.
+  testimonial: "I strongly believe that if you do what you like then it is passion
+    else it is stress. \nFuture Foundry customized a session for us which was pure
+    hands-on and had activities specific to different roles like R&D, sales, manufacturing
+    and commissioning. Their evaluation report helped us match our engineers to roles
+    based on their competency and interest."
   company: Head of HR, L&T EAIC
   adjective: Experiential Evaluation
 - name: Mr. A.D. Shahane
