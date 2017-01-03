@@ -47,18 +47,18 @@ testimonials:
 featured images:
   vertical:
   - image: "/uploads/1-e58142.jpg"
-    caption: 
+    caption: Senior Management @ Coffee Session
   - image: "/uploads/2-f5d8ec.jpg"
-    caption: 
+    caption: Faculty Training
   - image: "/uploads/lab.jpg"
-    caption: 
+    caption: Lab Demonstration Project
   horizontal:
   - image: "/uploads/3.jpg"
-    caption: 
+    caption: Engineers prototyping
   - image: "/uploads/5.jpg"
-    caption: 
+    caption: IoT workshop
   - image: "/uploads/6.jpg"
-    caption: 
+    caption: 'AI Coffee Session '
 services:
 - 
 layout: index
