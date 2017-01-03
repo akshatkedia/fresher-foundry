@@ -29,7 +29,7 @@ testimonials:
 - name: Mr. Debabrata Mohapatra
   image: "/uploads/Debrabrata%20Mohapatra_L&T%20eaic.jpg"
   testimonial: "I strongly believe that if you do what you like then it is passion
-    else it is stress. \nFuture Foundry customized a session for us which was pure
+    else it is stress. \n\nFuture Foundry customized a session for us which was pure
     hands-on and had activities specific to different roles like R&D, sales, manufacturing
     and commissioning. Their evaluation report helped us match our engineers to roles
     based on their competency and interest."
@@ -40,7 +40,7 @@ testimonials:
   testimonial: "Despite the short duration (2.5 hours), Future Foundry's technology
     coffee sessions are never surface level. I am impressed with their ability to
     create engaging demonstrations and curate relevant case studies on every technology.
-    \nAfter their series on industry 4.0, our employees are picking up pilot projects
+    \n\nAfter their series on industry 4.0, our employees are picking up pilot projects
     to implement."
   company: Vice President, Corporate Training - Technical, Larsen & Toubro
   adjective: Engaging, Relevant!
