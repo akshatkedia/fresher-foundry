@@ -33,6 +33,7 @@ testimonials:
     evaluation helped us match our engineers to roles based on their competency and
     interest.
   company: Head of HR, L&T EAIC
+  adjective: Experiential Evaluation
 - name: Mr. A.D. Shahane
   image: "/uploads/shahane.jpg"
   testimonial: Despite the short duration (2.5 hours), Fresher Foundry's technology
@@ -41,6 +42,7 @@ testimonials:
     After their series on industry 4.0, our employees are picking up pilot projects
     to implement.
   company: Vice President, Technical Corporate Training, Larsen & Toubro
+  adjective: Engaging, Relevant!
 featured images:
   vertical:
   - image: "/uploads/1-e58142.jpg"
