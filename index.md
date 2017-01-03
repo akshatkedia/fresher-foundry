@@ -37,11 +37,11 @@ testimonials:
   adjective: Experiential Evaluation
 - name: Mr. A.D. Shahane
   image: "/uploads/shahane.jpg"
-  testimonial: Despite the short duration (2.5 hours), Fresher Foundry's technology
+  testimonial: "Despite the short duration (2.5 hours), Future Foundry's technology
     coffee sessions are never surface level. I am impressed with their ability to
     create engaging demonstrations and curate relevant case studies on every technology.
-    After their series on industry 4.0, our employees are picking up pilot projects
-    to implement.
+    \nAfter their series on industry 4.0, our employees are picking up pilot projects
+    to implement."
   company: Vice President, Corporate Training - Technical, Larsen & Toubro
   adjective: Engaging, Relevant!
 featured images:
