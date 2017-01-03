@@ -3,28 +3,28 @@ title: Home
 customers:
 - name: Larsen and Toubro
   image: "/uploads/2.png"
-  link: www.larsentoubro.com
+  link: http://www.larsentoubro.com/
 - name: Fluid AI
   image: "/uploads/Fluid.AI%20logo.jpg"
-  link: fluid.ai
+  link: http://fluid.ai/
 - name: EFY Group
   image: "/uploads/6.png"
-  link: efy.in
+  link: http://efy.in/
 - name: ShopWorx
   image: "/uploads/7.png"
-  link: www.entrib.com
+  link: http://www.entrib.com/
 - name: India Electronics Week
   image: "/uploads/5.png"
-  link: www.indiaelectronicsweek.com
+  link: https://www.indiaelectronicsweek.com/
 - name: Thadomal Shahani Engineering College
   image: "/uploads/4.png"
-  link: www.tsec.edu
+  link: http://www.tsec.edu/
 - name: Maker Fest
   image: "/uploads/3.png"
-  link: www.makerfest.com
+  link: https://www.makerfest.com/
 - name: Thakur Institute of Management Studies, Career Development and Research
   image: "/uploads/1.png"
-  link: timscdrmumbai.in
+  link: https://timscdrmumbai.in/
 testimonials:
 - name: Mr. Debabrata Mohapatra
   image: "/uploads/Debrabrata%20Mohapatra_L&T%20eaic.jpg"
