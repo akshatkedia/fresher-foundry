@@ -31,7 +31,8 @@ layout: default
                 <a href="{{ page.services[0]['featured image'] }}" data-lightbox="{{ page.services[0].name | downcase | slugify | append: "-link" }}">View Gallery</a>
             </p>
         </div>
-        {% for image in page.services[0].images %}
+        {% assign sorted_images = page.services[0].images | sort:"position" %}
+        {% for image in sorted_images %}
             <a href="{{ image.image }}" data-lightbox="{{ page.services[0].name | downcase | slugify }}"></a>
             <a href="{{ image.image }}" data-lightbox="{{ page.services[0].name | downcase | slugify | append: "-link" }}"></a>
         {% endfor %}
@@ -53,7 +54,8 @@ layout: default
                 <a href="{{ page.services[1]['featured image'] }}" data-lightbox="{{ page.services[1].name | downcase | slugify | append: "-link" }}">View Gallery</a>
             </p>
         </div>
-        {% for image in page.services[1].images %}
+        {% assign sorted_images = page.services[1].images | sort:"position" %}
+        {% for image in sorted_images %}
             <a href="{{ image.image }}" data-lightbox="{{ page.services[1].name | downcase | slugify }}"></a>
             <a href="{{ image.image }}" data-lightbox="{{ page.services[1].name | downcase | slugify | append: "-link" }}"></a>
         {% endfor %}
@@ -75,7 +77,8 @@ layout: default
                 <a href="{{ page.services[2]['featured image'] }}" data-lightbox="{{ page.services[2].name | downcase | slugify | append: "-link" }}">View Gallery</a>
             </p>
         </div>
-        {% for image in page.services[2].images %}
+        {% assign sorted_images = page.services[2].images | sort:"position" %}
+        {% for image in sorted_images %}
             <a href="{{ image.image }}" data-lightbox="{{ page.services[2].name | downcase | slugify }}"></a>
             <a href="{{ image.image }}" data-lightbox="{{ page.services[2].name | downcase | slugify | append: "-link" }}"></a>
         {% endfor %}
@@ -97,7 +100,8 @@ layout: default
                 <a href="{{ page.services[3]['featured image'] }}" data-lightbox="{{ page.services[3].name | downcase | slugify | append: "-link" }}">View Gallery</a>
             </p>
         </div>
-        {% for image in page.services[3].images %}
+        {% assign sorted_images = page.services[3].images | sort:"position" %}
+        {% for image in sorted_images %}
             <a href="{{ image.image }}" data-lightbox="{{ page.services[3].name | downcase | slugify }}"></a>
             <a href="{{ image.image }}" data-lightbox="{{ page.services[3].name | downcase | slugify | append: "-link" }}"></a>
         {% endfor %}

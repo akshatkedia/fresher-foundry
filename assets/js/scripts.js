@@ -1103,6 +1103,7 @@ function initializeMasonry(){
             if ($('.masonryFlyIn').length) {
                 masonryFlyIn();
             }
+
         });
 
         msnry.layout();
@@ -1262,7 +1263,6 @@ window.initializeMaps = function(){
 initializeMaps();
 
 // End of Maps
-
 
 
 
