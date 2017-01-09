@@ -51,3 +51,19 @@ section {
 textarea {
   color: rgb(0, 0, 0);
 }
+
+#contact i {
+  font-size: 16px;
+  color: white;
+}
+
+#about .tab-content {
+  text-align: justify;
+}
+
+.lb-data .lb-close:before,
+.lb-nav a.lb-next:before,
+.lb-nav a.lb-prev:before {
+  color: $color-orange;
+  font-weight: bold;
+}

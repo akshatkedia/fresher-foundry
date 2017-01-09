@@ -32,8 +32,8 @@ layout: default
                         </li>
                         <li>
                             <i class="ti-tag"></i>
-                            <span>Tagged as
-                                <a href="#">Lifestyle</a>
+                            <span>Categorized as
+                                <a href="#">{{ page.category }}</a>
                             </span>
                         </li>
                     </ul>
@@ -68,18 +68,11 @@ layout: default
             <!--end of nine col-->
             <div class="col-md-3 hidden-sm">
                 <div class="widget">
-                    <h6 class="title">Search Blog</h6>
-                    <hr>
-                    <form>
-                        <input class="mb0" type="text" placeholder="Type Here" />
-                    </form>
-                </div>
-                <!--end of widget-->
-                <div class="widget">
                     <h6 class="title">About The Author</h6>
                     <hr>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem antium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+                        {% assign author = site.authors | where:"title",page.author %}
+                        {{ author }}
                     </p>
                 </div>
                 <!--end of widget-->
@@ -87,18 +80,11 @@ layout: default
                     <h6 class="title">Blog Categories</h6>
                     <hr>
                     <ul class="link-list">
+                        {% for category in site.categories %}
                         <li>
-                            <a href="#">Lifestyle</a>
+                            <a href="#">{{ category.title }}</a>
                         </li>
-                        <li>
-                            <a href="#">Web Design</a>
-                        </li>
-                        <li>
-                            <a href="#">Photography</a>
-                        </li>
-                        <li>
-                            <a href="#">Freelance</a>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <!--end of widget-->
@@ -119,15 +105,6 @@ layout: default
                             <span class="date">September 07, 2015</span>
                         </li>
                     </ul>
-                </div>
-                <!--end of widget-->
-                <div class="widget">
-                    <h6 class="title">Latest Updates</h6>
-                    <hr>
-                    <div class="twitter-feed">
-                        <div class="tweets-feed" data-feed-name="mrareweb">
-                        </div>
-                    </div>
                 </div>
                 <!--end of widget-->
             </div>
