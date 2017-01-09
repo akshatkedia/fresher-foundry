@@ -15,7 +15,7 @@ team:
   image: "/uploads/1-ea505c.jpg"
   linkedin: https://in.linkedin.com/in/lokhandwalamustafa
   facebook: https://www.facebook.com/profile.php?id=1664054815&fref=ts
-  position: 
+  position: System Engineer
 - name: Hatim Saifee
   image: "/uploads/3-9d7ed5.jpg"
   linkedin: https://in.linkedin.com/in/hhshatimsaifee
