@@ -52,11 +52,11 @@ exclude:
 - node_modules
 - ".gitignore"
 facebook:
-  publisher: https://www.facebook.com/fresherfoundry/
+  publisher: https://www.facebook.com/futurefoundryin/
 social:
   name: Fresher Foundry
   links:
-  - https://www.facebook.com/fresherfoundry
+  - https://www.facebook.com/futurefoundryin/
   - https://www.linkedin.com/company/future-foundry
 phone: "+91 9819954714"
 address: |-
