@@ -40,17 +40,17 @@ services:
     We help organizations set up labs - right from need analysis, determining the space, equipment selection to validation and training. The right expertise can save considerable expense and time, and ensure that the lab is productive.
   featured image: "/uploads/IMG_6871.JPG"
   images:
-  - image: "/uploads/IMG_6886.JPG"
+  - image: "/uploads/IMG_6879.JPG"
     caption: 
   - image: "/uploads/IMG_6864-23ad2a.JPG"
     caption: 
-  - image: "/uploads/IMG_6879.JPG"
+  - image: "/uploads/IMG_6886.JPG"
+    caption: 
+  - image: "/uploads/IMG_6987.JPG"
     caption: 
   - image: "/uploads/IMG_6904.JPG"
     caption: 
   - image: "/uploads/IMG_6909.JPG"
-    caption: 
-  - image: "/uploads/IMG_6987.JPG"
     caption: 
 - name: Evaluation
   description: |-
