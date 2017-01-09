@@ -37,7 +37,7 @@ testimonials:
   adjective: Experiential Evaluation
 - name: Mr. A.D. Shahane
   image: "/uploads/shahane.jpg"
-  testimonial: "Despite the short duration (2.5 hours), Future Foundry's technology
+  testimonial: "Despite the short duration (2**.**5 hours), Future Foundry's technology
     coffee sessions are never surface level. I am impressed with their ability to
     create engaging demonstrations and curate relevant case studies on every technology.
     \n\nAfter their series on industry 4.0, our employees are picking up pilot projects
