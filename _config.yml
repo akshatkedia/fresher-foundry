@@ -31,9 +31,9 @@ defaults:
     featured image: 
     category: 
 email: aneesha@futurefoundry.in
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+description: At Future Foundry, we help progressive businesses adopt emerging technologies
+  through senior management roundtables, deep drive training, labs and in-house project
+  consultancy in the space of IoT, Big Data, Blockchain, AI and Drones.
 permalink: pretty
 url: https://www.futurefoundry.in
 markdown: kramdown
