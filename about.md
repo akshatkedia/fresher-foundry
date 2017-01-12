@@ -31,7 +31,7 @@ advisors:
   image: "/uploads/M%20D%20Agrawal.jpg"
   linkedin: https://in.linkedin.com/in/m-d-agrawal-7a792510
   facebook: 
-  Key: 
+  company: 
 media:
   video: L553eXERY0M
   articles:
