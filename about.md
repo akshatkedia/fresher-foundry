@@ -52,6 +52,7 @@ approach: "We believe in the power of learning by doing. All our services are bu
   session is unique and tailored to address the needs of each client. We collaborate
   with technical consultants to design and deliver customized solutions for various
   technologies like IOT, Big Data, Cloud Computing, Artificial Intelligence etc."
+culture: 
 layout: about
 ---
 
