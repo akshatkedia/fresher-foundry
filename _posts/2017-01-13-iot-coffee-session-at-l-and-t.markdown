@@ -14,24 +14,23 @@ convert to meaningful actions"
 
 Swapnil Amritkar, COO - Entrib Technologies
 
-**Session
-**
+**Session**
 
-**Introduction
-**\
+**Introduction**
+\
 The session started off by answering fundamental questions on
- IOT, common misconceptions and interesting applications.
- 'Should I invest in IOT for my business' was discussed at length.
+IOT, common misconceptions and interesting applications.
+\'Should I invest in IOT for my business' was discussed at length.
 
-**Demonstration & Hands-on
+**Demonstration & Hands-on**
 \
-**The awareness session was followed by a demonstration and
- hands-on. The participants built a prototype of a CNC coolant
- temperature monitoring IOT system.
+The awareness session was followed by a demonstration and
+hands-on. The participants built a prototype of a CNC coolant
+temperature monitoring IOT system.
 
-**Case Studies
+**Case Studies**
 \
-**Three case studies from diverse domain like efficiency
- improvement of welding process, predictive maintenance for
- heavy industry and safety improvement at an offshore oil rig
- platform were discussed.
+Three case studies from diverse domain like efficiency
+improvement of welding process, predictive maintenance for
+heavy industry and safety improvement at an offshore oil rig
+platform were discussed.
