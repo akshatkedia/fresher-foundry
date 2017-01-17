@@ -2,12 +2,12 @@
 title: About Us
 team:
 - name: Aneesha Pillai
-  image: "/uploads/4-1dd440.jpg"
+  image: "/uploads/Aneesha.jpg"
   linkedin: https://www.linkedin.com/in/aneesha-pillai
   facebook: https://www.facebook.com/aneesha.pillai.56
   position: Co-Founder
 - name: Deepak Gupta
-  image: "/uploads/2-55a38c.jpg"
+  image: "/uploads/Deepak.jpg"
   linkedin: https://in.linkedin.com/in/dgupta85
   facebook: https://www.facebook.com/deepak.gupta.5688
   position: Co-Founder
@@ -17,7 +17,7 @@ team:
   facebook: https://www.facebook.com/profile.php?id=1664054815&fref=ts
   position: System Engineer
 - name: Hatim Saifee
-  image: "/uploads/3-9d7ed5.jpg"
+  image: "/uploads/Hatim.JPG"
   linkedin: https://in.linkedin.com/in/hhshatimsaifee
   facebook: https://www.facebook.com/hhshatimsaifee
   position: System Engineer
