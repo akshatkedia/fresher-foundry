@@ -92,18 +92,12 @@ layout: default
                     <h6 class="title">Recent Posts</h6>
                     <hr>
                     <ul class="link-list recent-posts">
+                        {% for post in site.posts %}
                         <li>
-                            <a href="#">A simple image post for starters</a>
-                            <span class="date">September 23, 2015</span>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            <span class="date">{{ post.date | date_to_string }}</span>
                         </li>
-                        <li>
-                            <a href="#">An audio post for good measure</a>
-                            <span class="date">September 19, 2015</span>
-                        </li>
-                        <li>
-                            <a href="#">A thoguhtful blockquote post on life</a>
-                            <span class="date">September 07, 2015</span>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <!--end of widget-->

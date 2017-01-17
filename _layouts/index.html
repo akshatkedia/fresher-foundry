@@ -158,7 +158,7 @@ layout: default
         <!--end of row-->
         <div class="row">
             {% for testimonial in page.testimonials %}
-            <div class="col-sm-4 {% if forloop.first == true %}col-sm-offset-2{% endif %} text-center">
+            <div class="col-sm-4 text-center">
                 <div class="feature boxed cast-shadow-light">
                     <img alt="Pic" class="image-small img-circle inline-block mb24" src="{{ testimonial.image }}" />
                     <h4>"{{ testimonial.adjective }}"</h4>
