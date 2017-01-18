@@ -1,13 +1,13 @@
 <div class="nav-container">
     <a id="top"></a>
-    {% if site['notice text'] %}
+    {% if site['notice text'] and page.url == '/' %}
     <div class="bg-primary notice">
         <p>
             {{ site['notice text'] }}
         </p>
     </div>
     {% endif %}
-    <nav class="absolute" {% if site['notice text'] != nil %}style="top: 40px"{% endif %}>
+    <nav class="absolute" {% if site['notice text'] != nil and page.url == '/' %}style="top: 40px"{% endif %}>
         <div class="nav-bar">
             <div class="module left">
                 <a href="/">
