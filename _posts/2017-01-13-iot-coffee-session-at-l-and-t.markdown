@@ -1,6 +1,8 @@
 ---
 title: IoT Coffee session at L&T
 date: 2017-01-13 18:07:00 +05:30
+categories:
+- Client Stories
 ---
 
 //*If we can add text wrapping options for pictures, it would be great*
