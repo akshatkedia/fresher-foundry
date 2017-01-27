@@ -31,9 +31,8 @@ defaults:
     featured image: 
     category: 
 email: aneesha@futurefoundry.in
-description: At Future Foundry, we help progressive businesses adopt emerging technologies
-  through senior management roundtables, deep drive training, labs and in-house project
-  consultancy in the space of IoT, Big Data, Blockchain, AI and Drones.
+description: We help businesses adopt emerging technologies through roundtables, deep
+  dive training, labs & project consultancy in IoT, Big Data, Blockchain, AI & Drones.
 permalink: pretty
 url: https://www.futurefoundry.in
 markdown: kramdown
