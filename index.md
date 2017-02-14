@@ -47,11 +47,11 @@ testimonials:
 - name: Dr. Vinita Gaikwad
   image: "/uploads/Vinita%20Gaikwad.jpg"
   testimonial: |-
-    Future Foundry is impactful and refreshing in its approach to training. The two day IOT training was pure hands-on, no boring presentations or lectures. Deepak starts every session with an IoT problem and in the process of solving that problem, our faculty learns the concepts.
+    Future Foundry is refreshing in its approach to training. The two day IOT training was pure hands-on, no boring presentations or lectures. Deepak starts every session with an IoT problem and in the process of solving that problem, our faculty learns the concepts.
 
     What differentiates them is their experience of working with industries which they incorporate in their sessions through projects and examples.I would strongly recommend them to institutions who are looking for robust faculty training.
   company: "​I/C Director, TIMSCDR"
-  adjective: 
+  adjective: Impactful
 featured images:
   vertical:
   - image: "/uploads/1-e58142.jpg"
