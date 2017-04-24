@@ -86,34 +86,15 @@ layout: default
         </div>
         <!--end of row-->
         <div class="row text-center">
+            {% for service in page.services %}
             <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
-                <i class="fa fa-coffee icon icon-white inline-block mb16"></i>
-                <h4>Coffee Sessions</h4>
+                <i class="fa fa-{{ service.icon }} icon icon-white inline-block mb16"></i>
+                <h4>{{ service.name }}</h4>
                 <h5>
-                  Help business leaders make better technology decisions.
+                  {{ service.text }}
                 </h5>
             </div>
-            <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
-                <i class="fa fa-bolt icon icon-white inline-block mb16"></i>
-                <h4>Workshops</h4>
-                <h5>
-                  Empower practicing engineers with hands-on working knowledge.
-                </h5>
-            </div>
-            <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
-                <i class="fa fa-flask icon icon-white inline-block mb16"></i>
-                <h4>Labs</h4>
-                <h5>
-                  Create infrastructure to work on emerging technologies.
-                </h5>
-            </div>
-            <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
-                <i class="ti-infinite icon icon-white inline-block mb16"></i>
-                <h4>Evaluation</h4>
-                <h5>
-                  Evaluate engineers through hardware hackathons.
-                </h5>
-            </div>
+            {% endfor %}
             <a class="btn btn-lg btn-white mb0" href="/services/">Know More</a>
         </div>
         <!--end of row-->
