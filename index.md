@@ -12,7 +12,7 @@ services:
   icon: flask
 - name: Evaluation
   text: Evaluate engineers through hardware hackathons.
-  icon: infinite
+  icon: check-square-o
 customers:
 - name: Larsen and Toubro
   image: "/uploads/2.png"
