@@ -1,5 +1,9 @@
 ---
 title: Home
+services:
+- icon text: 
+  name: Coffee Sessions
+  text: Help business leaders make better technology decisions.
 customers:
 - name: Larsen and Toubro
   image: "/uploads/2.png"
