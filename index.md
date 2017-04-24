@@ -1,9 +1,18 @@
 ---
 title: Home
 services:
-- icon text: 
+- icon: coffee
   name: Coffee Sessions
   text: Help business leaders make better technology decisions.
+- name: Workshops
+  text: Empower practicing engineers with hands-on working knowledge.
+  icon: bolt
+- name: Labs
+  text: Create infrastructure to work on emerging technologies.
+  icon: flask
+- name: Evaluation
+  text: Evaluate engineers through hardware hackathons.
+  icon: infinite
 customers:
 - name: Larsen and Toubro
   image: "/uploads/2.png"
