@@ -83,4 +83,6 @@ featured images:
 layout: index
 ---
 
-![cover photo.png](/uploads/cover%20photo.png)
+Technology is moving so quickly that it has become challenging to even pay attention. IoT, 3D Printing, Big data, Augmented Reality, AI and Drones have the potential to disrupt the status quo, alter the way people live and work, and enable new levels of innovation. 
+ 
+Progressive businesses cannot afford to ignore it. We help you demystify emerging technology and harness its power to stay ahead in the game.
