@@ -84,6 +84,7 @@ layout: index
 ---
 
 # MY BUSINESS IS GOING TO BE READY 
-TO ADOPT EMERGING TECHNOLOGIES
-### 
-Conferences are generic, vendors are biased and POCs are necessary. How do I start?
+# TO ADOPT EMERGING TECHNOLOGIES
+
+
+## Conferences are generic, vendors are biased and POCs are necessary. How do I start?
