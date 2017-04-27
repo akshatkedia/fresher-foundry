@@ -1,18 +1,15 @@
 ---
 title: Home
 services:
-- icon: coffee
-  name: Coffee Sessions
+- name: Tech on Toast
   text: Help business leaders make better technology decisions.
-- name: Workshops
+  icon image: "/uploads/toast.jpg"
+- name: Digital Foundry
   text: Empower practicing engineers with hands-on working knowledge.
-  icon: bolt
-- name: Labs
+  icon image: flask
+- name: IoT Consulting
   text: Create infrastructure to work on emerging technologies.
-  icon: flask
-- name: Evaluation
-  text: Evaluate engineers through hardware hackathons.
-  icon: check-square-o
+  icon image: "/uploads/iot-icon.png"
 customers:
 - name: Larsen and Toubro
   image: "/uploads/2.png"
