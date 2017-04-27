@@ -87,8 +87,10 @@ layout: default
         <!--end of row-->
         <div class="row text-center">
             {% for service in page.services %}
-            <div class="col-md-3 col-sm-6 mb40 mb-xs-24">
-                <i class="fa fa-{{ service.icon }} icon icon-white inline-block mb16"></i>
+            <div class="col-md-4 col-sm-6 mb40 mb-xs-24">
+                <i class="icon icon-white inline-block mb16">
+                  <img src="{{ service['icon image'] }}" alt="">
+                </i>
                 <h4>{{ service.name }}</h4>
                 <h5>
                   {{ service.text }}
