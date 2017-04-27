@@ -6,7 +6,7 @@ services:
   icon image: "/uploads/toast.jpg"
 - name: Digital Foundry
   text: Empower practicing engineers with hands-on working knowledge.
-  icon image: flask
+  icon image: "/uploads/flask.png"
 - name: IoT Consulting
   text: Create infrastructure to work on emerging technologies.
   icon image: "/uploads/iot-icon.png"
