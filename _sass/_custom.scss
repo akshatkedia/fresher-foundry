@@ -1,5 +1,22 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
+.hero-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-images img {
+  max-height: 150px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: black;
+}
+
 h1.visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);

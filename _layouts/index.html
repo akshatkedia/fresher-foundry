@@ -2,19 +2,26 @@
 layout: default
 ---
 
-<section class="bg-primary background-multiply pt240 pb240 pt-xs-120 pb-xs-120 overlay image-bg parallax">
+<section class="background-multiply pt120 pb180 pt-xs-120 pb-xs-120 parallax">
     <!-- <div class="background-image-holder">
         <img alt="image" class="background-image" src="/assets/img/home24.jpg" />
     </div> -->
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                <img alt="Logo" class="image-small mb40 mb-xs-0" src="/assets/img/logo-dark.png" alt="{{ site.title }}" />
                 <h1 class="visuallyhidden">{{ site.title }}</h1>
-                <h4 class="mb56 mb-xs-24">
-                  {{ content }}
-                </h4>
-                <a class="btn btn-lg btn-white mb0" href="#contact">Make An Enquiry</a>
+                <h2 class="mb40 mb-xs-24 text-uppercase color-primary bold">
+                  My business is <span class="strikethrough"><span class="color-primary bold">going to be</span></span> ready to adopt emerging technologies
+                </h2>
+                <div class="mb40 hero-images">
+                  {% for image in page.hero.images %}
+                  <img src="{{ image }}" alt="">
+                  {% endfor %}
+                </div>
+                <h3 class="mb40">
+                  {{ page.hero['bottom text'] }}
+                </h3>
+                <a class="btn btn-lg mb0" href="#contact">Make An Enquiry</a>
             </div>
         </div>
         <!--end of row-->
