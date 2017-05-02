@@ -77,6 +77,11 @@ featured images:
     caption: IoT workshop
   - image: "/uploads/6.jpg"
     caption: 'AI Coffee Session '
+hero:
+  top text: 
+  images:
+  - 
+  bottom text: 
 layout: index
 ---
 
