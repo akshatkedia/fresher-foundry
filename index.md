@@ -1,18 +1,15 @@
 ---
 title: Home
 services:
-- icon: coffee
-  name: Coffee Sessions
+- name: Tech on Toast
   text: Help business leaders make better technology decisions.
-- name: Workshops
+  icon image: "/uploads/toast.jpg"
+- name: Digital Foundry
   text: Empower practicing engineers with hands-on working knowledge.
-  icon: bolt
-- name: Labs
+  icon image: "/uploads/flask.png"
+- name: IoT Consulting
   text: Create infrastructure to work on emerging technologies.
-  icon: flask
-- name: Evaluation
-  text: Evaluate engineers through hardware hackathons.
-  icon: check-square-o
+  icon image: "/uploads/iot-icon.png"
 customers:
 - name: Larsen and Toubro
   image: "/uploads/2.png"
@@ -80,6 +77,18 @@ featured images:
     caption: IoT workshop
   - image: "/uploads/6.jpg"
     caption: 'AI Coffee Session '
+hero:
+  top text: 
+  images:
+  - "/uploads/1-3800f1.png"
+  - "/uploads/3D%20printing.png"
+  - "/uploads/2-96307a.png"
+  - "/uploads/3-1bb2d6.png"
+  - "/uploads/4-4499a4.png"
+  bottom text: |-
+    Conferences are generic, vendors are biased
+
+    and POCs are necessary. How do I start?
 layout: index
 ---
 
