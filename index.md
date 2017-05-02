@@ -80,8 +80,15 @@ featured images:
 hero:
   top text: 
   images:
-  - 
-  bottom text: 
+  - "/uploads/1-3800f1.png"
+  - "/uploads/3D%20printing.png"
+  - "/uploads/2-96307a.png"
+  - "/uploads/3-1bb2d6.png"
+  - "/uploads/4-4499a4.png"
+  bottom text: |-
+    Conferences are generic, vendors are biased
+
+    and POCs are necessary. How do I start?
 layout: index
 ---
 
