@@ -5,10 +5,10 @@ services:
   text: Help business leaders make better technology decisions.
   icon image: "/uploads/toast.jpg"
 - name: Digital Foundry
-  text: Empower practicing engineers with hands-on working knowledge.
+  text: Build innovation labs to experience digital technologies in action.
   icon image: "/uploads/flask.png"
 - name: IoT Consulting
-  text: Create infrastructure to work on emerging technologies.
+  text: Build customized IoT solutions for engineering businesses.
   icon image: "/uploads/iot-icon.png"
 customers:
 - name: Larsen and Toubro
