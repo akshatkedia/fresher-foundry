@@ -1,6 +1,20 @@
 ---
 title: Digital Foundry
 date: 2017-05-04 11:40:00 +05:30
+featured image: "/uploads/IMG_6871.JPG"
+images:
+- image: "/uploads/IMG_6879.JPG"
+  caption: 
+- image: "/uploads/IMG_6864-23ad2a.JPG"
+  caption: 
+- image: "/uploads/IMG_6886.JPG"
+  caption: 
+- image: "/uploads/IMG_6987.JPG"
+  caption: 
+- image: "/uploads/IMG_6904.JPG"
+  caption: 
+- image: "/uploads/IMG_6909.JPG"
+  caption: 
 ---
 
 We help organizations set up Digital Foundry to help clients experience the capabilities of emerging technologies. 

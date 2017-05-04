@@ -2,9 +2,6 @@
 title: Future Foundry
 timezone: Asia/Kolkata
 collections:
-  authors:
-    title: Authors
-    output: true
   categories:
     title: Categories
     output: true
@@ -13,26 +10,19 @@ collections:
     output: true
   services:
     title: Services
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
 defaults:
 - scope:
     path: ''
-    type: authors
+    type: services
   values:
-    permalink: "/blog/authors/:title/"
-    layout: author
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author: Aneesha Pillai
     featured image: 
-    category: 
+    images:
+    - image: 
+      caption: 
 email: aneesha@futurefoundry.in
 description: We help businesses adopt emerging technologies through roundtables, deep
   dive training, labs & project consultancy in IoT, Big Data, Blockchain, AI & Drones.
