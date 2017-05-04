@@ -1,5 +1,32 @@
 ---
 title: Home
+hero:
+  top text: 
+  images:
+  - "/uploads/1-3800f1.png"
+  - "/uploads/3D%20printing.png"
+  - "/uploads/2-96307a.png"
+  - "/uploads/3-1bb2d6.png"
+  - "/uploads/4-4499a4.png"
+  bottom text: |-
+    Conferences are generic, vendors are biased
+
+    and POCs are necessary. How do I start?
+featured images:
+  vertical:
+  - image: "/uploads/1-e58142.jpg"
+    caption: Senior Management @ Coffee Session
+  - image: "/uploads/2-f5d8ec.jpg"
+    caption: Faculty Training
+  - image: "/uploads/lab.jpg"
+    caption: Lab Demonstration Project
+  horizontal:
+  - image: "/uploads/3.jpg"
+    caption: Engineers prototyping
+  - image: "/uploads/5.jpg"
+    caption: IoT workshop
+  - image: "/uploads/6.jpg"
+    caption: 'AI Coffee Session '
 services:
 - name: Tech on Toast
   text: Help business leaders make better technology decisions.
@@ -62,33 +89,6 @@ testimonials:
     What differentiates them is their experience of working with industries which they incorporate in their sessions through projects and examples.I would strongly recommend them to institutions who are looking for robust faculty training.
   company: "​I/C Director, TIMSCDR"
   adjective: Impactful
-featured images:
-  vertical:
-  - image: "/uploads/1-e58142.jpg"
-    caption: Senior Management @ Coffee Session
-  - image: "/uploads/2-f5d8ec.jpg"
-    caption: Faculty Training
-  - image: "/uploads/lab.jpg"
-    caption: Lab Demonstration Project
-  horizontal:
-  - image: "/uploads/3.jpg"
-    caption: Engineers prototyping
-  - image: "/uploads/5.jpg"
-    caption: IoT workshop
-  - image: "/uploads/6.jpg"
-    caption: 'AI Coffee Session '
-hero:
-  top text: 
-  images:
-  - "/uploads/1-3800f1.png"
-  - "/uploads/3D%20printing.png"
-  - "/uploads/2-96307a.png"
-  - "/uploads/3-1bb2d6.png"
-  - "/uploads/4-4499a4.png"
-  bottom text: |-
-    Conferences are generic, vendors are biased
-
-    and POCs are necessary. How do I start?
 layout: index
 ---
 
