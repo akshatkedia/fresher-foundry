@@ -22,10 +22,10 @@ defaults:
     path: ''
     type: services
   values:
-    featured image:
+    featured image: 
     images:
-    - image:
-      caption:
+    - image: 
+      caption: 
 email: aneesha@futurefoundry.in
 description: We help businesses adopt emerging technologies through roundtables, deep
   dive training, labs & project consultancy in IoT, Big Data, Blockchain, AI & Drones.
@@ -63,4 +63,4 @@ alternative logo: "/uploads/logo-light-c2ea60.png"
 paginate: 5
 paginate_path: "/blog/page:num/"
 linkedin: https://www.linkedin.com/company/future-foundry
-notice text:
+notice text: 
