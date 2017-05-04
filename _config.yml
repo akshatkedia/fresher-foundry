@@ -2,9 +2,6 @@
 title: Future Foundry
 timezone: Asia/Kolkata
 collections:
-  authors:
-    title: Authors
-    output: true
   categories:
     title: Categories
     output: true
