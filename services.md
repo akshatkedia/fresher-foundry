@@ -2,9 +2,10 @@
 title: Services
 services:
 - name: Tech on Toast
-  description: Our industry is drowning in buzzwords. It can be daunting for a business
-    leader to sift through buzzwords and invest in technologies that create real value
-    for their business.
+  description: |
+    Our industry is drowning in buzzwords. It can be daunting for a business leader to sift through buzzwords and invest in technologies that create real value for their business.
+
+    We help you build a mental model to assess a technology and its suitability for your business through short, snappy sessions. Each session is designed for your specific business with relevant case studies and custom-made demonstrations.
   featured image: "/uploads/coffee_session.jpg"
   images:
   - image: "/uploads/1-7b357d.JPG"
