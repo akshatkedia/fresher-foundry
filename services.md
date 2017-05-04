@@ -1,11 +1,10 @@
 ---
 title: Services
 services:
-- name: Coffee Sessions
-  description: |-
-    We help business leaders demystify new technologies and capture their benefits over a cup of coffee.  We curate and customize technology sessions for your business. Our goal is not to predict the future, but give business leaders a mental model to analyse the technology and assess its suitability for their business.
-
-    Drones, IoT, 3D printing, artificial intelligence, virtual reality are few transformative technologies we have identified. But, the list keeps changing with time.
+- name: Tech on Toast
+  description: Our industry is drowning in buzzwords. It can be daunting for a business
+    leader to sift through buzzwords and invest in technologies that create real value
+    for their business.
   featured image: "/uploads/coffee_session.jpg"
   images:
   - image: "/uploads/1-7b357d.JPG"
@@ -33,11 +32,11 @@ services:
     caption: 
   - image: "/uploads/6-6e3859.JPG"
     caption: 
-- name: Labs
-  description: |-
-    The first step to pilot emerging technologies is to create an ecosystem for the engineers to pick problems around them and build solutions.
-
-    We help organizations set up labs - right from need analysis, determining the space, equipment selection to validation and training. The right expertise can save considerable expense and time, and ensure that the lab is productive.
+- name: Digital Foundry
+  description: "We help organizations set up Digital Foundry to help clients experience
+    the capabilities of emerging technologies. \n\nPredictive maintenance of critical
+    machines using IoT, aerial monitoring of solar power plants using drones, VR/AR
+    experience center are some of the zones in a Digital Foundry.\n"
   featured image: "/uploads/IMG_6871.JPG"
   images:
   - image: "/uploads/IMG_6879.JPG"
