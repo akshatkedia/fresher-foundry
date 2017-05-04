@@ -5,7 +5,7 @@ services:
   text: Help business leaders make better technology decisions.
   icon image: "/uploads/toast.jpg"
 - name: Digital Foundry
-  text: Build innovation labs to experience digital technologies in action.
+  text: Design innovation labs to experience digital technologies in action.
   icon image: "/uploads/flask.png"
 - name: IoT Consulting
   text: Build customized IoT solutions for engineering businesses.
