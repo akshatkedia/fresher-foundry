@@ -14,96 +14,30 @@ layout: default
     </div>
 </section>
 <div class="services">
-    <section class="image-square left">
+    {% assign services = site.services | sort: 'position' %}
+    {% for service in services %}
+    <section class="image-square {% cycle 'left', 'right' %}">
         <div class="col-md-6 image">
-            <a href="{{ page.services[0]['featured image'] }}" data-lightbox="{{ page.services[0].name | downcase | slugify }}">
+            <a href="{{ service['featured image'] }}" data-lightbox="{{ service.title | downcase | slugify }}">
                 <div class="background-image-holder">
-                    <img alt="image" class="background-image" src="{{ page.services[0]['featured image'] }}" />
+                    <img alt="image" class="background-image" src="{{ service['featured image'] }}" />
                 </div>
             </a>
         </div>
-        <div class="col-md-6 col-md-offset-1 content">
-            <h3>{{ page.services[0].name }}</h3>
+        <div class="col-md-6 {% cycle 'col-md-offset-1', '' %} content">
+            <h3>{{ service.title }}</h3>
             <p class="mb0">
-                {{ page.services[0].description | markdownify }}
+                {{ service.content | markdownify }}
             </p>
             <p>
-                <a href="{{ page.services[0]['featured image'] }}" data-lightbox="{{ page.services[0].name | downcase | slugify | append: "-link" }}">View Gallery</a>
+                <a href="{{ service['featured image'] }}" data-lightbox="{{ service.title | downcase | slugify | append: "-link" }}">View Gallery</a>
             </p>
         </div>
-        {% assign sorted_images = page.services[0].images | sort:"position" %}
+        {% assign sorted_images = service.images | sort: 'position' %}
         {% for image in sorted_images %}
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[0].name | downcase | slugify }}"></a>
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[0].name | downcase | slugify | append: "-link" }}"></a>
+            <a href="{{ image.image }}" data-lightbox="{{ service.title | downcase | slugify }}"></a>
+            <a href="{{ image.image }}" data-lightbox="{{ service.title | downcase | slugify | append: "-link" }}"></a>
         {% endfor %}
     </section>
-    <section class="image-square right">
-        <div class="col-md-6 image">
-            <a href="{{ page.services[1]['featured image'] }}" data-lightbox="{{ page.services[1].name | downcase | slugify }}">
-                <div class="background-image-holder">
-                    <img alt="image" class="background-image" src="{{ page.services[1]['featured image'] }}" />
-                </div>
-            </a>
-        </div>
-        <div class="col-md-6 content">
-            <h3>{{ page.services[1].name }}</h3>
-            <p class="mb0">
-                {{ page.services[1].description | markdownify }}
-            </p>
-            <p>
-                <a href="{{ page.services[1]['featured image'] }}" data-lightbox="{{ page.services[1].name | downcase | slugify | append: "-link" }}">View Gallery</a>
-            </p>
-        </div>
-        {% assign sorted_images = page.services[1].images | sort:"position" %}
-        {% for image in sorted_images %}
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[1].name | downcase | slugify }}"></a>
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[1].name | downcase | slugify | append: "-link" }}"></a>
-        {% endfor %}
-    </section>
-    <section class="image-square left">
-        <div class="col-md-6 image">
-            <a href="{{ page.services[2]['featured image'] }}" data-lightbox="{{ page.services[2].name | downcase | slugify }}">
-                <div class="background-image-holder">
-                    <img alt="image" class="background-image" src="{{ page.services[2]['featured image'] }}" />
-                </div>
-            </a>
-        </div>
-        <div class="col-md-6 col-md-offset-1 content">
-            <h3>{{ page.services[2].name }}</h3>
-            <p class="mb0">
-                {{ page.services[2].description | markdownify }}
-            </p>
-            <p>
-                <a href="{{ page.services[2]['featured image'] }}" data-lightbox="{{ page.services[2].name | downcase | slugify | append: "-link" }}">View Gallery</a>
-            </p>
-        </div>
-        {% assign sorted_images = page.services[2].images | sort:"position" %}
-        {% for image in sorted_images %}
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[2].name | downcase | slugify }}"></a>
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[2].name | downcase | slugify | append: "-link" }}"></a>
-        {% endfor %}
-    </section>
-    <section class="image-square right">
-        <div class="col-md-6 image">
-            <a href="{{ page.services[3]['featured image'] }}" data-lightbox="{{ page.services[3].name | downcase | slugify }}">
-                <div class="background-image-holder">
-                    <img alt="image" class="background-image" src="{{ page.services[3]['featured image'] }}" />
-                </div>
-            </a>
-        </div>
-        <div class="col-md-6 content">
-            <h3>{{ page.services[3].name }}</h3>
-            <p class="mb0">
-                {{ page.services[3].description | markdownify }}
-            </p>
-            <p>
-                <a href="{{ page.services[3]['featured image'] }}" data-lightbox="{{ page.services[3].name | downcase | slugify | append: "-link" }}">View Gallery</a>
-            </p>
-        </div>
-        {% assign sorted_images = page.services[3].images | sort:"position" %}
-        {% for image in sorted_images %}
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[3].name | downcase | slugify }}"></a>
-            <a href="{{ image.image }}" data-lightbox="{{ page.services[3].name | downcase | slugify | append: "-link" }}"></a>
-        {% endfor %}
-    </section>
+    {% endfor %}
 </div>
