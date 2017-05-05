@@ -4,12 +4,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .hero-images img {
-  max-height: 150px;
+  max-height: 105px;
 }
 
 .strikethrough {
@@ -122,4 +122,14 @@ nav.scrolled {
 
 .icon img {
   max-height: 70px;
+}
+
+@media all and (max-width: 768px) {
+  .hero-images {
+    justify-content: center;
+  }
+
+  .hero-images img {
+    max-height: 90px;
+  }
 }
