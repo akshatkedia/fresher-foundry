@@ -39,12 +39,19 @@ media:
     link: http://www.theweek.in/content/archival/magazine/theweek/cover/to-skill-a-mocking-herd.html
   - image: "/uploads/10.jpg"
     link: http://shethepeople.tv/a-fresh-start-with-aneesha-pillai-founder-of-fresher-foundry/
-history: |-
-  Future Foundry (initially, Fresher Foundry) was born out of numerous coffee-conversations in a quiet town in UK. We were working in our dream companies leading a conventional life. Restless souls as we are, few questions bothered us. "Why are companies like Google, Amazon are quick to adopt emerging technologies while others are reluctant? What stops business leaders from quickly evaluating and adopting an emerging technology? Why are Indian conglomerates behind their western counterparts"
-
-  We started speaking to business leaders across organizations Siemens, L&T and realized that evaluating an emerging technology is a daunting task in an industry drowning in buzzwords. Relevant, curated and unbiased information is difficult to access but the cost of not taking a decision is very high. It is a real, exciting problem.
-
-  Future Foundry started operating in Mumbai in January 2015. Since then we have designed sessions and solutions that have impacted 200+ decision makers in 7+ conglomerates in India.
+history: "Future Foundry (initially, Fresher Foundry) was born out of numerous coffee-conversations
+  in a quiet town in UK. We were working in our dream companies leading a conventional
+  life. Restless souls as we are, few questions bothered us. \"Why are companies like
+  Google, Amazon are quick to adopt emerging technologies while others are reluctant?
+  What stops business leaders from quickly evaluating and adopting an emerging technology?
+  Why are Indian conglomerates behind their western counterparts\"\n\nWe started speaking
+  to business leaders across organizations Siemens, L&T and realized that evaluating
+  an emerging technology is a daunting task in an industry drowning in buzzwords.
+  Relevant, curated and unbiased information is difficult to access but the cost of
+  not taking a decision is very high. It is a real, exciting problem and we decided
+  to solve it. \n\nFuture Foundry started operating in Mumbai in January 2015. Since
+  then we have designed sessions and solutions that have impacted 200+ decision makers
+  in 7+ conglomerates in India."
 approach: 
 culture: 
 layout: about
