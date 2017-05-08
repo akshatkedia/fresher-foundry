@@ -1,6 +1,7 @@
 ---
 title: Workshops
 date: 2017-05-04 11:40:00 +05:30
+published: false
 featured image: "/uploads/deep_dive.jpg"
 images:
 - image: "/uploads/2-67a043.JPG"
