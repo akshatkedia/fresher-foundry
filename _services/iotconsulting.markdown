@@ -11,9 +11,6 @@ tags:
 - digitization
 - industry 4.0
 position: 2
-featured image: "/uploads/Industrial%20IoT.png"
-images:
-- image: "/uploads/Industrial%20IoT.png"
 ---
 
 Sensors, networks and machines have evolved since the industrial revolution. IOT is a continuation to connect machines and networks to people. Data feed from machines helps leaders make better business decisions.
