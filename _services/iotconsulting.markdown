@@ -10,7 +10,7 @@ tags:
 - iot
 - digitization
 - industry 4.0
-position: 4
+position: 2
 featured image: "/uploads/Industrial%20IoT.png"
 images:
 - image: "/uploads/Industrial%20IoT.png"
