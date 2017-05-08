@@ -1,6 +1,7 @@
 ---
 title: Digital Foundry
 date: 2017-05-04 11:40:00 +05:30
+position: 2
 featured image: "/uploads/IMG_6871.JPG"
 images:
 - image: "/uploads/IMG_6879.JPG"
