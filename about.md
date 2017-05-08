@@ -45,12 +45,13 @@ history: "Future Foundry (initially, Fresher Foundry) was born out of numerous c
   Google, Amazon are quick to adopt emerging technologies while others are reluctant?
   What stops business leaders from quickly evaluating and adopting an emerging technology?
   Why are Indian conglomerates behind their western counterparts\"\n\nWe started speaking
-  to business leaders across organizations Siemens, L&T and realized that business
-  leaders do not have relevant, curated, unbiased information to evaluate emerging
-  technologies. The cost of not taking a decision is very high. It was a real problem.
-  We quit our jobs and moved to India to solve this problem. \n\nFuture Foundry started
-  operating in Mumbai in January 2015. Since then we have designed sessions and solutions
-  that have impacted 200+ decision makers in 7+ conglomerates in India."
+  to business leaders across organizations Siemens, L&T and realized that evaluating
+  an emerging technology is a daunting task in an industry drowning in buzzwords.
+  Relevant, curated and unbiased information is difficult to access but the cost of
+  not taking a decision is very high. It is a real, exciting problem and we decided
+  to solve it. \n\nFuture Foundry started operating in Mumbai in January 2015. Since
+  then we have designed sessions and solutions that have impacted 200+ decision makers
+  in 7+ conglomerates in India."
 approach: 
 culture: 
 layout: about
