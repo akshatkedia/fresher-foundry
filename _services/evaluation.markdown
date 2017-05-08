@@ -2,6 +2,7 @@
 title: Evaluation
 date: 2017-05-04 11:40:00 +05:30
 published: false
+position: 3
 featured image: "/uploads/evaluation.jpg"
 images:
 - image: "/uploads/1-3010cf.JPG"
