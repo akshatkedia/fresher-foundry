@@ -39,19 +39,19 @@ media:
     link: http://www.theweek.in/content/archival/magazine/theweek/cover/to-skill-a-mocking-herd.html
   - image: "/uploads/10.jpg"
     link: http://shethepeople.tv/a-fresh-start-with-aneesha-pillai-founder-of-fresher-foundry/
-history: |-
-  Future Foundry (initially, Fresher Foundry) was born out of numerous coffee-conversations in a quiet town in UK. We were working in our dream companies leading a conventional life. Restless souls as we are, few questions bothered us. "How our professional lives could have been better if we were taught differently? Why don't we 'do and learn? How can businesses train engineers better?"
-
-  We started exploring the idea of training engineers on emerging technologies and conducted our first session in July 2014 with a bunch of curious engineers. The session was received so well that we could not resist moving back to India.
-
-  Future Foundry started operating in Mumbai in January 2015. Since then we have designed experiential solutions that have impacted 2000+ decision makers and practicing engineers in India.
-approach: "We believe in the power of learning by doing. All our services are built
-  around experiential learning. \n\nNo presentations, no lectures, no tests! From
-  the shortest coffee sessions to the longest 2 week trainings, all our sessions start
-  with a real world problem. Engineers learn in the process of solving the problem.\n\nEvery
-  session is unique and tailored to address the needs of each client. We collaborate
-  with technical consultants to design and deliver customized solutions for various
-  technologies like IOT, Big Data, Cloud Computing, Artificial Intelligence etc."
+history: "Future Foundry (initially, Fresher Foundry) was born out of numerous coffee-conversations
+  in a quiet town in UK. We were working in our dream companies leading a conventional
+  life. Restless souls as we are, few questions bothered us. \"Why are companies like
+  Google, Amazon are quick to adopt emerging technologies while others are reluctant?
+  What stops business leaders from quickly evaluating and adopting an emerging technology?
+  Why are Indian conglomerates behind their western counterparts\"\n\nWe started speaking
+  to business leaders across organizations Siemens, L&T and realized that business
+  leaders do not have relevant, curated, unbiased information to evaluate emerging
+  technologies. The cost of not taking a decision is very high. It was a real problem.
+  We quit our jobs and moved to India to solve this problem. \n\nFuture Foundry started
+  operating in Mumbai in January 2015. Since then we have designed sessions and solutions
+  that have impacted 200+ decision makers in 7+ conglomerates in India."
+approach: 
 culture: 
 layout: about
 ---
