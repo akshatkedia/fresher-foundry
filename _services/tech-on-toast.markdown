@@ -14,6 +14,6 @@ images:
   caption: 
 ---
 
-Our industry is drowning in buzzwords. It can be daunting for a business leader to sift through buzzwords and invest in technologies that create real value for their business.
+Our industry is drowning in buzzwords. As a business leader, it can be daunting for you to sift through buzzwords and invest in technologies that create real value for your business.
 
 We help you build a mental model to assess a technology and its suitability for your business through short, snappy sessions. Each session is designed for your specific business with relevant case studies and custom-made demonstrations.
