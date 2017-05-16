@@ -63,15 +63,19 @@ customers:
   image: "/uploads/1.png"
   link: https://timscdrmumbai.in/
 testimonials:
-- name: Mr. Debabrata Mohapatra
-  image: "/uploads/Debrabrata%20Mohapatra_L&T%20eaic.jpg"
-  testimonial: "I strongly believe that if you do what you like then it is passion
-    else it is stress. \n\nFuture Foundry customized a session for us which was pure
-    hands-on and had activities specific to different roles like R&D, sales, manufacturing
-    and commissioning. Their evaluation report helped us match our engineers to roles
-    based on their competency and interest."
-  company: Head of HR, L&T EAIC
-  adjective: Experiential Evaluation
+- name: Mr. Amit Agarwal
+  image: "/uploads/amit%20ag.jpg"
+  testimonial: "Unlike other conferences or tech talks, Tech on Toast provided not
+    just an overview of the new technologies, but also relevant use cases for our
+    industry. It was action-packed with live demos and case studies. \n\nThis made
+    it possible for us to immediately start exploring ways of using the new technologies
+    to enhance our own business. The team's ability to curate experts with significant
+    breadth and depth of knowledge is commendable. \n\nThe team Future Foundry team
+    is also able to walk the talk -setting up labs and CoEs for us and implementing
+    IoT projects for our businesses. The enthusiasm and dynamism of team make them
+    a valuable partner in our digital journey, and a pleasure to work with."
+  company: 'Head - Corporate Strategy, L&T '
+  adjective: Fantastic case studies
 - name: Mr. A.D. Shahane
   image: "/uploads/shahane.jpg"
   testimonial: "Despite the short duration (2**.**5 hours), Future Foundry's technology
