@@ -65,14 +65,13 @@ customers:
 testimonials:
 - name: Mr. Amit Agarwal
   image: "/uploads/amit%20ag.jpg"
-  testimonial: "Unlike other conferences or tech talks, Tech on Toast provided not
-    just an overview of emerging technologies, but also live demos and relevant use
-    cases for our industry. This helped us to immediately start exploring ways of
-    using new technologies to enhance our business. \n\nThe team's ability to curate
-    experts with significant breadth and depth of knowledge is commendable. They are
-    also able to walk the talk by setting up labs, CoEs and implementing IoT projects
-    for our businesses. The enthusiasm and dynamism of team make them a valuable partner
-    in our digital journey."
+  testimonial: "Unlike conferences or tech talks, Tech on Toast was more than a sweeping
+    overview of emerging technologies. It was action-packed with live demos and relevant
+    use cases for our industry. This helped us to immediately start exploring ways
+    of using new technologies in our business. \n\nThe team's ability to curate experts
+    with significant breadth and depth of knowledge is commendable. They also helped
+    us set up labs, CoEs and implement IoT projects for our business. The enthusiasm
+    and dynamism of team make them a valuable partner in our digital journey."
   company: 'Head - Corporate Strategy, L&T '
   adjective: Fantastic case studies
 - name: Mr. A.D. Shahane
