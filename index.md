@@ -72,7 +72,7 @@ testimonials:
     experts with significant breadth and depth of knowledge is commendable. The enthusiasm
     and dynamism of team make them a valuable partner in our digital journey."
   company: 'Head - Corporate Strategy, L&T '
-  adjective: Fantastic case studies
+  adjective: Fantastic use cases
 - name: Mr. A.D. Shahane
   image: "/uploads/shahane.jpg"
   testimonial: "Despite the short duration (2**.**5 hours), Future Foundry's technology
