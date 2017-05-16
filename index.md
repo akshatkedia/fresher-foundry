@@ -81,7 +81,7 @@ testimonials:
     \n\nAfter their series on industry 4.0, our employees are picking up pilot projects
     to implement."
   company: Vice President, Corporate Training - Technical, Larsen & Toubro
-  adjective: Engaging, Relevant!
+  adjective: Impactful demos
 - name: Dr. Vinita Gaikwad
   image: "/uploads/Vinita%20Gaikwad.jpg"
   testimonial: |-
@@ -89,7 +89,7 @@ testimonials:
 
     What differentiates them is their experience of working with industries which they incorporate in their sessions through projects and examples.I would strongly recommend them to institutions who are looking for robust faculty training.
   company: "​I/C Director, TIMSCDR"
-  adjective: Impactful
+  adjective: Engaging, Relevant!
 layout: index
 ---
 
