@@ -71,7 +71,7 @@ testimonials:
     ways of using new technologies in our business. \n\nThe team's ability to curate
     experts with significant breadth and depth of knowledge is commendable. The enthusiasm
     and dynamism of the team make them a valuable partner in our digital journey."
-  company: 'Head - Corporate Strategy, L&T '
+  company: Head - Corporate Strategy, Larsen & Toubro
   adjective: Fantastic use cases
 - name: Mr. A.D. Shahane
   image: "/uploads/shahane.jpg"
