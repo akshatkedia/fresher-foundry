@@ -70,7 +70,7 @@ testimonials:
     and relevant use cases for our industry. This helped us to immediately start exploring
     ways of using new technologies in our business. \n\nThe team's ability to curate
     experts with significant breadth and depth of knowledge is commendable. The enthusiasm
-    and dynamism of team make them a valuable partner in our digital journey."
+    and dynamism of the team make them a valuable partner in our digital journey."
   company: 'Head - Corporate Strategy, L&T '
   adjective: Fantastic use cases
 - name: Mr. A.D. Shahane
