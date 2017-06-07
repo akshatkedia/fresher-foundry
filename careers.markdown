@@ -10,23 +10,48 @@ What are we looking for?: Since last six months, we are building a ‘one of a k
   to build and a future to create. We are looking for Electrical System Engineers
   (ESE) to join our team. You would be directly reporting to the technical co-founder
   and will interface with the mechanical design team.
-Are you a fit text: "We are primarily looking for two things.\n\nTechnical skill\n
-  \  \n   1. Hardware Skills (Necessary)\n   * PCB design using Eaglecad or equivalent
-  software\n   * Experience of designing analog circuits that involve OPamp, filters\n
-  \  * Experience of designing micro-controller based circuits\n   * Strong fundamentals
-  of sensors\n   * Strong fundamentals of protection circuits\n\n   2. Hardware skills
-  (Desirable, not a must)\n   * Strong fundamentals of EMC design\n   * Experience
-  of NXP/Freescale micro-controller\n   * Experience of working with ARM architecture\n
-  \  Software Skills (Necessary)\n   * Experience of coding in C, C\\+\\+\n   * Experience
-  of firmware development\n\n   3. Software skills (Desirable, not a must)\n   * Experience
-  of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE\n   * Experience
-  of coding in Python and Java\n   * Experience of using simulation software like
-  Pspice or equivalent\n   * Experience of working with HMI/Touch screen panels\n\n2.
-  Passion\n\n   We are looking for engineers who are obsessed with solving problems.
-  Every day in our office is challenging and you need more than motivation to succeed.
-  We look for traits like picking up new skills quickly and working under tight deadlines.\n\n
-  \  We would be delighted to talk to people who are accountable, independent and
-  can deliver without constant supervision."
+Are you a fit text: |-
+  We are primarily looking for two things.
+
+  Technical skill
+
+  1. Hardware Skills (Necessary)
+
+     * PCB design using Eaglecad or equivalent software
+
+     * Experience of designing analog circuits that involve OPamp, filters
+
+     * Experience of designing micro-controller based circuits
+
+     * Strong fundamentals of sensors
+
+     * Strong fundamentals of protection circuits
+
+  2. Hardware skills (Desirable, not a must)
+
+     * Strong fundamentals of EMC design
+
+     * Experience of NXP/Freescale micro-controller
+
+     * Experience of working with ARM architecture Software Skills (Necessary)
+
+     * Experience of coding in C, C\+\+
+
+     * Experience of firmware development
+
+  3. Software skills (Desirable, not a must)
+
+     * Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
+
+     * Experience of coding in Python and Java
+
+     * Experience of using simulation software like Pspice or equivalent
+
+     * Experience of working with HMI/Touch screen panels
+
+  Passion
+  * We are looking for engineers who are obsessed with solving problems. Every day in our office is challenging and you need more than motivation to succeed. We look for traits like picking up new skills quickly and working under tight deadlines.
+  * We would be delighted to talk to people who are accountable, independent and can deliver without constant supervision.
 Few Facts text: "Location: Navi Mumbai. Work may require you to travel to Mumbai and
   Pune\n\nQualifications: B.Eng/B.Tech in Electronics, Electronics and Telecommunications
   or Electrical Engineering\n\nWork Experience: Minimum of 12 months. If you are a
