@@ -14,47 +14,34 @@ layout: default
     </div>
 </section>
 <section>
-    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-        <div class="feature boxed bg-secondary">
-            <form action="https://getsimpleform.com/messages?form_api_token=59e38393b104b2b73e72617ff7076256" class="text-center form-email" data-error="There were errors, please check all required fields and try again" data-success="Thanks for taking the time to complete the planner. We'll be in touch shortly!">
-                <h4 class="uppercase mt48 mt-xs-0">Join the Team</h4>
-                <div class="overflow-hidden">
-                    <hr>
-                    <h6 class="uppercase">
-                        1. What kind of work excites you?
-                    </h6>
-                    {% for profile in page.profiles %}
-                    <div class="col-sm-4">
-                        <p class="mb16">
-                            {{ profile }}
-                        </p>
-                        <div class="checkbox-option text-left">
-                            <div class="inner"></div>
-                            <input type="checkbox" name="webdesign" value="webdesign" />
-                        </div>
-                    </div>
-                    {% endfor %}
-                    <hr>
-                </div>
-                <div class="overflow-hidden">
-                    <h6 class="uppercase">
-                        3. Your personal details
-                    </h6>
-                    <input type="text" name="name" class="col-md-6 validate-required" placeholder="Your Name*" />
-                    <input type="text" name="email" class="col-md-6 validate-required validate-email" placeholder="Your Email Address*" />
-                    <textarea name="message" placeholder="Why do you want to work for us?" rows="2"></textarea>
-                    <hr>
-                </div>
-                <div class="overflow-hidden">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <h6 class="uppercase">
-                            4. Upload CV
-                        </h6>
-                        <input type="file" name="cv" class="form-control">
-                        <button type="submit">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 mb40">
+              <h3 class="uppercase color-primary mb40 mb-xs-24">Who are we?</h3>
+              <p class="lead">
+                {{ page["Who are we?"] }}
+              </p>
+          </div>
+          <div class="col-sm-8 col-sm-offset-2 mb40">
+              <h3 class="uppercase color-primary mb40 mb-xs-24">What are we looking for?</h3>
+              <p class="lead">
+                {{ page["What are we looking for?"] }}
+              </p>
+          </div>
+          <div class="col-sm-8 col-sm-offset-2 mb40">
+              <h3 class="uppercase color-primary mb40 mb-xs-24">Are you a fit?</h3>
+              <p class="lead">
+                {{ page["Are you a fit text"] | markdownify }}
+              </p>
+          </div>
+          <div class="col-sm-8 col-sm-offset-2 mb40">
+              <h3 class="uppercase color-primary mb40 mb-xs-24">Few Facts</h3>
+              <p class="lead">
+                {{ page["Few Facts text"] | markdownify }}
+              </p>
+          </div>
+      </div>
+      <!--end of row-->
+  </div>
+  <!--end of container-->
 </section>
