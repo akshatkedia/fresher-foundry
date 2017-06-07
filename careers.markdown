@@ -13,7 +13,7 @@ What are we looking for?: Since last six months, we are building a ‘one of a k
 Are you a fit text: |-
   We are primarily looking for two things.
 
-  ## Technical skill
+  ### Technical skill
 
   1. Hardware Skills (Necessary)
 
@@ -49,7 +49,7 @@ Are you a fit text: |-
 
      * Experience of working with HMI/Touch screen panels
 
-  ## Passion
+  ### Passion
 
   * We are looking for engineers who are obsessed with solving problems. Every day in our office is challenging and you need more than motivation to succeed. We look for traits like picking up new skills quickly and working under tight deadlines.
 
