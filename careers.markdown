@@ -14,11 +14,11 @@ Are you a fit text: "We are primarily looking for two things.\n\n1. Technical sk
   \  \n   Hardware Skills (Necessary)\n   * PCB design using Eaglecad or equivalent
   software\n   * Experience of designing analog circuits that involve OPamp, filters\n
   \  * Experience of designing micro-controller based circuits\n   * Strong fundamentals
-  of sensors\n   * Strong fundamentals of protection circuits\n\n   Hardware skills
+  of sensors\n   * Strong fundamentals of protection circuits\n\n\n   Hardware skills
   (Desirable, not a must)\n   * Strong fundamentals of EMC design\n   * Experience
   of NXP/Freescale micro-controller\n   * Experience of working with ARM architecture\n
   \  Software Skills (Necessary)\n   * Experience of coding in C, C\\+\\+\n   * Experience
-  of firmware development\n\n   Software skills (Desirable, not a must)\n   * Experience
+  of firmware development\n\n\n   Software skills (Desirable, not a must)\n   * Experience
   of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE\n   * Experience
   of coding in Python and Java\n   * Experience of using simulation software like
   Pspice or equivalent\n   * Experience of working with HMI/Touch screen panels\n\n\n2.
