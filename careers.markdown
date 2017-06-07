@@ -10,30 +10,61 @@ What are we looking for?: Since last six months, we are building a ‘one of a k
   to build and a future to create. We are looking for Electrical System Engineers
   (ESE) to join our team. You would be directly reporting to the technical co-founder
   and will interface with the mechanical design team.
-Are you a fit?: "We are primarily looking for two things.\n\n1.\tTechnical skill   \n\nHardware
-  Skills (Necessary)\n•\tPCB design using Eaglecad or equivalent software\n•\tExperience
-  of designing analog circuits that involve OPamp, filters\n•\tExperience of designing
-  micro-controller based circuits\n•\tStrong fundamentals of sensors\n•\tStrong fundamentals
-  of protection circuits\n\nHardware skills (Desirable, not a must)\n•\tStrong fundamentals
-  of EMC design\n•\tExperience of NXP/Freescale micro-controller\n•\tExperience of
-  working with ARM architecture\n\nSoftware Skills (Necessary)\n•\tExperience of coding
-  in C, C++\n•\tExperience of firmware development\n\nSoftware skills (Desirable,
-  not a must)\n•\tExperience of working with Codewarrior (Freescale/NXP IDE) or Eclipse
-  IDE\n•\tExperience of coding in python and Java\n•\tExperience of using simulation
-  software like Pspice or equivalent\n•\tExperience of working with HMI/Touch screen
-  panels\n\n2.\tPassion\n\nWe are looking for engineers who are obsessed with solving
-  problems. Every day in our office is challenging and you need more than motivation
-  to succeed.We look for traits like picking up new skills quickly and working under
-  tight deadlines.\n\nWe would be delighted to talk to people who are accountable,
-  independent and can deliver without constant supervision."
-Few Facts: "Location: Navi Mumbai. Work may require you to travel to Mumbai and Pune\n\nQualifications:
-  B.Eng/B.Tech in Electronics, Electronics and Telecommunications or Electrical Engineering\n\nWork
-  Experience: Minimum of 12 months. If you are a fresher and have built projects (apart
-  from academic requirements), feel free apply. \n\nSalary: Competitive, to be disclosed
-  post first round of interview\n\nHow to apply: Send an email with your CV, a cover
-  letter and any links for your projects to deepak@futurefoundry.in\n\nInclude the
-  following in the email subject line: Application for ESE-1\nPlease share as much
-  information as you can. This will help us evaluate your application better\n"
+Are you a fit text: |-
+  We are primarily looking for two things.
+
+  1. Technical skill
+
+     Hardware Skills (Necessary)
+
+     * PCB design using Eaglecad or equivalent software
+
+     * Experience of designing analog circuits that involve OPamp, filters
+
+     * Experience of designing micro-controller based circuits
+
+     * Strong fundamentals of sensors
+
+     * Strong fundamentals of protection circuits
+
+     Hardware skills (Desirable, not a must)
+
+     * Strong fundamentals of EMC design
+
+     * Experience of NXP/Freescale micro-controller
+
+     * Experience of working with ARM architecture
+
+     Software Skills (Necessary)
+
+     * Experience of coding in C, C\+\+
+
+     * Experience of firmware development
+
+     Software skills (Desirable, not a must)
+
+     * Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
+
+     * Experience of coding in Python and Java
+
+     * Experience of using simulation software like Pspice or equivalent
+
+     * Experience of working with HMI/Touch screen panels
+
+  2. Passion
+
+     We are looking for engineers who are obsessed with solving problems. Every day in our office is challenging and you need more than motivation to succeed.We look for traits like picking up new skills quickly and working under tight deadlines.
+
+     We would be delighted to talk to people who are accountable, independent and can deliver without constant supervision.
+Few Facts text: "Location: Navi Mumbai. Work may require you to travel to Mumbai and
+  Pune\n\nQualifications: B.Eng/B.Tech in Electronics, Electronics and Telecommunications
+  or Electrical Engineering\n\nWork Experience: Minimum of 12 months. If you are a
+  fresher and have built projects (apart from academic requirements), feel free apply.
+  \n\nSalary: Competitive, to be disclosed post first round of interview\n\nHow to
+  apply: Send an email with your CV, a cover letter and any links for your projects
+  to [deepak@futurefoundry.in](mailto:deepak@futurefoundry.in)\n\nInclude the following
+  in the email subject line: Application for ESE-1\nPlease share as much information
+  as you can. This will help us evaluate your application better.\n"
 layout: careers
 ---
 
