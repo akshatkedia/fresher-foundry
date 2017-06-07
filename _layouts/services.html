@@ -16,28 +16,30 @@ layout: default
 <div class="services">
     {% assign services = site.services | sort: 'position' %}
     {% for service in services %}
-    <section class="image-square {% cycle 'left', 'right' %}">
-        <div class="col-md-6 image">
-            <a href="{{ service['featured image'] }}" data-lightbox="{{ service.title | downcase | slugify }}">
-                <div class="background-image-holder">
-                    <img alt="image" class="background-image" src="{{ service['featured image'] }}" />
-                </div>
-            </a>
-        </div>
-        <div class="col-md-6 {% cycle 'col-md-offset-1', '' %} content">
-            <h3>{{ service.title }}</h3>
-            <p class="mb0">
-                {{ service.content | markdownify }}
-            </p>
-            <p>
-                <a href="{{ service['featured image'] }}" data-lightbox="{{ service.title | downcase | slugify | append: "-link" }}">View Gallery</a>
-            </p>
-        </div>
-        {% assign sorted_images = service.images | sort: 'position' %}
-        {% for image in sorted_images %}
-            <a href="{{ image.image }}" data-lightbox="{{ service.title | downcase | slugify }}"></a>
-            <a href="{{ image.image }}" data-lightbox="{{ service.title | downcase | slugify | append: "-link" }}"></a>
-        {% endfor %}
-    </section>
+      {% unless service.published == false %}
+      <section class="image-square {% cycle 'left', 'right' %}">
+          <div class="col-md-6 image">
+              <a href="{{ service['featured image'] }}" data-lightbox="{{ service.title | downcase | slugify }}">
+                  <div class="background-image-holder">
+                      <img alt="image" class="background-image" src="{{ service['featured image'] }}" />
+                  </div>
+              </a>
+          </div>
+          <div class="col-md-6 {% cycle 'col-md-offset-1', '' %} content">
+              <h3>{{ service.title }}</h3>
+              <p class="mb0">
+                  {{ service.content | markdownify }}
+              </p>
+              <p>
+                  <a href="{{ service['featured image'] }}" data-lightbox="{{ service.title | downcase | slugify | append: "-link" }}">View Gallery</a>
+              </p>
+          </div>
+          {% assign sorted_images = service.images | sort: 'position' %}
+          {% for image in sorted_images %}
+              <a href="{{ image.image }}" data-lightbox="{{ service.title | downcase | slugify }}"></a>
+              <a href="{{ image.image }}" data-lightbox="{{ service.title | downcase | slugify | append: "-link" }}"></a>
+          {% endfor %}
+      </section>
+      {% endunless %}
     {% endfor %}
 </div>
