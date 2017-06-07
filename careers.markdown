@@ -21,10 +21,10 @@ Are you a fit text: "We are primarily looking for two things.\n\n1. Technical sk
   of firmware development\n\n   Software skills (Desirable, not a must)\n   * Experience
   of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE\n   * Experience
   of coding in Python and Java\n   * Experience of using simulation software like
-  Pspice or equivalent\n   * Experience of working with HMI/Touch screen panels\n\n2.
+  Pspice or equivalent\n   * Experience of working with HMI/Touch screen panels\n\n\n2.
   Passion\n\n   We are looking for engineers who are obsessed with solving problems.
-  Every day in our office is challenging and you need more than motivation to succeed.We
-  look for traits like picking up new skills quickly and working under tight deadlines.\n\n
+  Every day in our office is challenging and you need more than motivation to succeed.
+  We look for traits like picking up new skills quickly and working under tight deadlines.\n\n
   \  We would be delighted to talk to people who are accountable, independent and
   can deliver without constant supervision."
 Few Facts text: "Location: Navi Mumbai. Work may require you to travel to Mumbai and
