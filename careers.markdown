@@ -10,18 +10,18 @@ What are we looking for?: Since last six months, we are building a ‘one of a k
   to build and a future to create. We are looking for Electrical System Engineers
   (ESE) to join our team. You would be directly reporting to the technical co-founder
   and will interface with the mechanical design team.
-Are you a fit text: "We are primarily looking for two things.\n\n1. Technical skill\n
-  \  \n   Hardware Skills (Necessary)\n   * PCB design using Eaglecad or equivalent
+Are you a fit text: "We are primarily looking for two things.\n\nTechnical skill\n
+  \  \n   1. Hardware Skills (Necessary)\n   * PCB design using Eaglecad or equivalent
   software\n   * Experience of designing analog circuits that involve OPamp, filters\n
   \  * Experience of designing micro-controller based circuits\n   * Strong fundamentals
-  of sensors\n   * Strong fundamentals of protection circuits\n\n\n   Hardware skills
+  of sensors\n   * Strong fundamentals of protection circuits\n\n   2. Hardware skills
   (Desirable, not a must)\n   * Strong fundamentals of EMC design\n   * Experience
   of NXP/Freescale micro-controller\n   * Experience of working with ARM architecture\n
   \  Software Skills (Necessary)\n   * Experience of coding in C, C\\+\\+\n   * Experience
-  of firmware development\n\n\n   Software skills (Desirable, not a must)\n   * Experience
+  of firmware development\n\n   3. Software skills (Desirable, not a must)\n   * Experience
   of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE\n   * Experience
   of coding in Python and Java\n   * Experience of using simulation software like
-  Pspice or equivalent\n   * Experience of working with HMI/Touch screen panels\n\n\n2.
+  Pspice or equivalent\n   * Experience of working with HMI/Touch screen panels\n\n2.
   Passion\n\n   We are looking for engineers who are obsessed with solving problems.
   Every day in our office is challenging and you need more than motivation to succeed.
   We look for traits like picking up new skills quickly and working under tight deadlines.\n\n
