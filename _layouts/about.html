@@ -29,6 +29,7 @@ layout: default
                                 {{ page.history | markdownify }}
                             </div>
                         </li>
+                        {% unless page.approach == nil %}
                         <li>
                             <div class="tab-title">
                                 <span>Approach</span>
@@ -37,6 +38,17 @@ layout: default
                                 {{ page.approach | markdownify }}
                             </div>
                         </li>
+                        {% endunless %}
+                        {% unless page.culture == nil %}
+                        <li>
+                            <div class="tab-title">
+                                <span>Culture</span>
+                            </div>
+                            <div class="tab-content">
+                                {{ page.culture | markdownify }}
+                            </div>
+                        </li>
+                        {% endunless %}
                     </ul>
                 </div>
                 <!--end of button tabs-->
@@ -120,23 +132,25 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb64 mb-xs-40">Media</h4>
+                <h4 class="uppercase mb32 mb-xs-40">Media</h4>
             </div>
         </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <div class="embed-video-container embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.media.video }}" allowfullscreen="allowfullscreen"></iframe>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <ul class="mt24">
+                <ul>
                     {% for article in page.media.articles %}
                     <li><a href="{{ article.link }}" target="_blank"><img src="{{ article.image }}" alt=""></a></li>
                     {% endfor %}
                 </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+               {% for video in page.media.videos %}
+                <div class="mb32 embed-video-container embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ video }}" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+                {% endfor %}
             </div>
         </div>
         <!--end of row-->
