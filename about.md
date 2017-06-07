@@ -33,7 +33,8 @@ advisors:
   facebook: 
   company: 
 media:
-  video: L553eXERY0M
+  videos:
+  - L553eXERY0M
   articles:
   - image: "/uploads/9.jpg"
     link: http://www.theweek.in/content/archival/magazine/theweek/cover/to-skill-a-mocking-herd.html
