@@ -124,6 +124,28 @@ nav.scrolled {
   max-height: 70px;
 }
 
+/* Careers  */
+
+.careers .main-container ol {
+  padding-left: 18px;
+}
+
+.careers .main-container ul {
+  list-style: initial;
+  padding-left: 18px;
+}
+
+.careers .main-container ol ul {
+  margin-bottom: 18px;
+}
+
+.careers .main-container p,
+.careers .main-container li {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
 @media all and (max-width: 768px) {
   .hero-images {
     justify-content: center;
