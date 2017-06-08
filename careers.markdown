@@ -5,11 +5,10 @@ Who are we?: We are a bunch of engineers, designers, technology evangelists and 
   helping large organizations adopt emerging technologies.  We love solving real-world
   problems and build great products. We question everything, create and break swiftly
   and make things that matter.
-What are we looking for?: Since last six months, we are building a ‘one of a kind’
-  consumer appliance. Our machine is a first but we have more answers to find, things
-  to build and a future to create. We are looking for Electrical System Engineers
-  (ESE) to join our team. You would be directly reporting to the technical co-founder
-  and will interface with the mechanical design team.
+What are we looking for?: |-
+  Electrical System Engineer
+
+  Since last six months, we are building a ‘one of a kind’ consumer appliance. Our machine is a first but we have more answers to find, things to build and a future to create. We are looking for Electrical System Engineers (ESE) to join our team. You would be directly reporting to the technical co-founder and will interface with the mechanical design team.
 Are you a fit text: |-
   We are primarily looking for two things.
 
@@ -44,10 +43,10 @@ Few Facts text: "Location: Navi Mumbai. Work may require you to travel to Mumbai
   Pune\n\nQualifications: B.Eng/B.Tech in Electronics, Electronics and Telecommunications
   or Electrical Engineering\n\nWork Experience: Minimum of 12 months. If you are a
   fresher and have built projects (apart from academic requirements), feel free apply.
-  \n\nSalary: Competitive, to be disclosed post first round of interview\n\nHow to
+  \n\nSalary: Competitive, to be disclosed post first round of interview.\n\nHow to
   apply: Send an email with your CV, a cover letter and any links for your projects
   to [deepak@futurefoundry.in](mailto:deepak@futurefoundry.in)\n\nInclude the following
-  in the email subject line: Application for ESE-1\nPlease share as much information
+  in the email subject line: Application for ESE-1.\nPlease share as much information
   as you can. This will help us evaluate your application better.\n"
 layout: careers
 ---
