@@ -52,4 +52,3 @@ Few Facts text: "Location: Navi Mumbai. Work may require you to travel to Mumbai
 layout: careers
 ---
 
-Electrical Systems Engineer
