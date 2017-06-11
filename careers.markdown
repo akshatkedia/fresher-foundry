@@ -1,11 +1,11 @@
 ---
 title: Careers
 date: 2017-01-18 15:26:00 +05:30
-Embedded System Engineer: Job description below
 Who are we?: We are a bunch of engineers, designers, technology evangelists and marketers
   helping large organizations adopt emerging technologies.  We love solving real-world
   problems and build great products. We question everything, create and break swiftly
   and make things that matter.
+Embedded System Engineer: Job description below
 What are we looking for?: Since last six months, we are building a ‘one of a kind’
   consumer appliance. Our machine is a first but we have more answers to find, things
   to build and a future to create. We are looking for Embedded System Engineers (ESE)
