@@ -11,7 +11,7 @@ What are we looking for?: Since last six months, we are building a ‘one of a k
   to build and a future to create. We are looking for Embedded System Engineers (ESE)
   to join our team. You would be directly reporting to the technical co-founder and
   will interface with the mechanical design team.
-Are you a fit text: |-
+Are you a fit?: |-
   We are primarily looking for two things.
 
   #### Technical skill
