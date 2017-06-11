@@ -43,12 +43,13 @@ Are you a fit text: |-
 Few Facts text: "Location: Navi Mumbai. Work may require you to travel to Mumbai and
   Pune\n\nQualifications: B.Eng/B.Tech in Electronics, Electronics and Telecommunications
   or Electrical Engineering\n\nWork Experience: Minimum of 12 months. If you are a
-  fresher and have built projects (apart from academic requirements), feel free apply.
-  \n\nSalary: Competitive, to be disclosed post first round of interview.\n\nHow to
-  apply: Send an email with your CV, a cover letter and any links for your projects
-  to [deepak@futurefoundry.in](mailto:deepak@futurefoundry.in)\n\nInclude the following
-  in the email subject line: Application for ESE-1.\nPlease share as much information
-  as you can. This will help us evaluate your application better.\n"
+  fresher and have built projects (apart from academic requirements), feel free to
+  apply. \n\nSalary: Competitive, to be disclosed post first round of interview.\n\nHow
+  to apply: Send an email with your CV, a cover letter and any links for your projects
+  to [deepak@futurefoundry.in](mailto:deepak@futurefoundry.in)\n\nDeadline: 17th June,
+  2017, 23:59 hours\n\nInclude the following in the email subject line: Application
+  for ESE-1.\nPlease share as much information as you can. This will help us evaluate
+  your application better.\n"
 layout: careers
 ---
 
