@@ -8,7 +8,6 @@ collections:
   careers:
     title: Openings
     output: true
-    permalink: careers/:title
   posts:
     title: Posts
     output: true
