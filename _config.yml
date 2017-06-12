@@ -5,6 +5,9 @@ collections:
   categories:
     title: Categories
     output: true
+  openings:
+    title: Openings
+    output: true
   posts:
     title: Posts
     output: true
