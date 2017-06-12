@@ -5,9 +5,10 @@ collections:
   categories:
     title: Categories
     output: true
-  careers:
+  openings:
     title: Openings
     output: true
+    permalink: careers
   posts:
     title: Posts
     output: true
