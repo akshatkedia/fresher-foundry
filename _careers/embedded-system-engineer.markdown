@@ -50,6 +50,6 @@ Work Experience: Minimum of 12 months. If you are a fresher and have built proje
 
 Salary: Competitive, to be disclosed post first round of interview.
 
-How to apply: Send an email with your CV, a cover letter and any links for your projects to deepak@futurefoundry.in
+How to apply: Send an email with your CV, a cover letter and any links for your projects to [deepak@futurefoundry.in](mailto:deepak@futurefoundry.in)
 
 Include the following in the email subject line: Application for ESE-1. Please share as much information as you can. This will help us evaluate your application better.
