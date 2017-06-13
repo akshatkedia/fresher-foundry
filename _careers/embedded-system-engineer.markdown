@@ -12,33 +12,47 @@ We are primarily looking for two things.
 
 1. Technical skill
 
-    * Hardware Skills (Necessary)
-        * PCB design using Eaglecad or equivalent software
-        * Experience of designing analog circuits that involve OPamp, filters
-        * Experience of designing micro-controller based circuits
-        * Strong fundamentals of sensors
-        * Strong fundamentals of protection circuits
+   * Hardware Skills (Necessary)
 
-    * Hardware skills (Desirable, not a must)
-        * Strong fundamentals of EMC design
-        * Experience of NXP/Freescale micro-controller
-        * Experience of working with ARM architecture 
+     * PCB design using Eaglecad or equivalent software
 
-    * Software Skills (Necessary)
-        * Experience of coding in C, C++
-        * Experience of firmware development
+     * Experience of designing analog circuits that involve OPamp, filters
 
-    * Software skills (Desirable, not a must)
-        * Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
-        * Experience of coding in Python and Java
-        * Experience of using simulation software like Pspice or equivalent
-        * Experience of working with HMI/Touch screen panels
+     * Experience of designing micro-controller based circuits
+
+     * Strong fundamentals of sensors
+
+     * Strong fundamentals of protection circuits
+
+   * Hardware skills (Desirable, not a must)
+
+     * Strong fundamentals of EMC design
+
+     * Experience of NXP/Freescale micro-controller
+
+     * Experience of working with ARM architecture
+
+   * Software Skills (Necessary)
+
+     * Experience of coding in C, C\+\+
+
+     * Experience of firmware development
+
+   * Software skills (Desirable, not a must)
+
+     * Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
+
+     * Experience of coding in Python and Java
+
+     * Experience of using simulation software like Pspice or equivalent
+
+     * Experience of working with HMI/Touch screen panels
 
 2. Passion
 
-    We are looking for engineers who are obsessed with solving problems. Every day in our office is challenging and you need more than motivation to succeed. We look for traits like picking up new skills quickly and working under tight deadlines.
+   We are looking for engineers who are obsessed with solving problems. Every day in our office is challenging and you need more than motivation to succeed. We look for traits like picking up new skills quickly and working under tight deadlines.
 
-    We would be delighted to talk to people who are accountable, independent and can deliver without constant supervision.
+   We would be delighted to talk to people who are accountable, independent and can deliver without constant supervision.
 
 #### FEW FACTS
 
