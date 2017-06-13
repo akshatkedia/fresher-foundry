@@ -28,17 +28,17 @@ layout: default
                 {{ page["What are we looking for?"] }}
               </p>
           </div>
-          <div class="col-sm-8 col-sm-offset-2 mb40">
-              <h3 class="uppercase color-primary mb40 mb-xs-24">Are you a fit?</h3>
-              <p class="lead">
-                {{ page["Are you a fit text"] | markdownify }}
-              </p>
-          </div>
-          <div class="col-sm-8 col-sm-offset-2 mb40">
-              <h3 class="uppercase color-primary mb40 mb-xs-24">Few Facts</h3>
-              <p class="lead">
-                {{ page["Few Facts text"] | markdownify }}
-              </p>
+          <div class="col-sm-10 col-sm-offset-1 mb40">
+              <h3 class="uppercase color-primary mb40 mb-xs-24">Openings</h3>
+              <div class="row">
+                {% for opening in site.careers %}
+                <div class="col-sm-4">
+                  <div class="feature feature-1 boxed">
+                    <h4 class="text-center"><a href="{{ opening.url }}">{{ opening.title }}</a></h4>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
           </div>
       </div>
       <!--end of row-->
