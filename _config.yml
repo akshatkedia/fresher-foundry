@@ -19,21 +19,15 @@ defaults:
     path: ''
     type: services
   values:
-    featured image: 
+    featured image:
     images:
-    - image: 
-      caption: 
+    - image:
+      caption:
 - scope:
     path: ''
-    type: openings
+    type: careers
   values:
     layout: opening
-    critical skills:
-    - 
-    desirable skills:
-    - 
-    qualification: 
-    how do i apply: 
 email: aneesha@futurefoundry.in
 description: We help businesses adopt emerging technologies through roundtables, deep
   dive training, labs & project consultancy in IoT, Big Data, Blockchain, AI & Drones.
@@ -44,7 +38,7 @@ gems:
 - jekyll-seo-tag
 - jekyll-sitemap
 sass:
-  sass_dir: _sass
+  sass_dir: /assets/css
   style: compressed
 exclude:
 - gulpfile.js
@@ -68,7 +62,5 @@ address: |-
   Navi Mumbai - 400706
 logo: "/uploads/logo-dark.png"
 alternative logo: "/uploads/logo-light-c2ea60.png"
-paginate: 5
-paginate_path: "/blog/page:num/"
 linkedin: https://www.linkedin.com/company/future-foundry
-notice text: 
+notice text:
