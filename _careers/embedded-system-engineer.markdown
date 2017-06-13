@@ -20,29 +20,21 @@ We are primarily looking for two things.
      - Strong fundamentals of sensors
      - Strong fundamentals of protection circuits
 
-   * Hardware skills (Desirable, not a must)
+    Hardware skills (Desirable, not a must)
 
-     * Strong fundamentals of EMC design
+     - Strong fundamentals of EMC design
+     - Experience of NXP/Freescale micro-controller
+     - Experience of working with ARM architecture
 
-     * Experience of NXP/Freescale micro-controller
+    Software Skills (Necessary)
 
-     * Experience of working with ARM architecture
-
-   * Software Skills (Necessary)
-
-     * Experience of coding in C, C\+\+
-
-     * Experience of firmware development
-
-   * Software skills (Desirable, not a must)
-
-     * Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
-
-     * Experience of coding in Python and Java
-
-     * Experience of using simulation software like Pspice or equivalent
-
-     * Experience of working with HMI/Touch screen panels
+     - Experience of coding in C, C\+\+
+     - Experience of firmware development
+     - Software skills (Desirable, not a must)
+     = Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
+     - Experience of coding in Python and Java
+     - Experience of using simulation software like Pspice or equivalent
+     - Experience of working with HMI/Touch screen panels
 
 2. Passion
 
