@@ -2,9 +2,6 @@
 title: Future Foundry
 timezone: Asia/Kolkata
 collections:
-  categories:
-    title: Categories
-    output: true
   careers:
     title: Openings
     output: true
