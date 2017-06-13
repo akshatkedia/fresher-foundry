@@ -13,5 +13,5 @@ We are looking for young content writers who are passionate about technology. Fo
 
 Skills: Proficiency in written English is a must. Knowledge of design softwares like Coreldraw/Photoshop/Canva is desirable.
 
-Write to us at 'careers@futurefoundry.in' if you are interested. Our office is in Navi Mumbai but we are open to applications from other cities. It is a part time opportunity and work from home is an option.
+Write to us at [careers@futurefoundry.in](mailto:careers@futurefoundry.in) if you are interested. Our office is in Navi Mumbai but we are open to applications from other cities. It is a part time opportunity and work from home is an option.
 
