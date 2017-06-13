@@ -18,7 +18,7 @@ We are primarily looking for two things.
      - Experience of designing analog circuits that involve OPamp, filters
      - Experience of designing micro-controller based circuits
      - Strong fundamentals of sensors
-    - Strong fundamentals of protection circuits
+     - Strong fundamentals of protection circuits
 
    * Hardware skills (Desirable, not a must)
 
