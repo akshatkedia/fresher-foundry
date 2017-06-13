@@ -12,17 +12,13 @@ We are primarily looking for two things.
 
 1. Technical skill
 
-   * Hardware Skills (Necessary)
+     Hardware Skills (Necessary)
 
-     * PCB design using Eaglecad or equivalent software
-
-     * Experience of designing analog circuits that involve OPamp, filters
-
-     * Experience of designing micro-controller based circuits
-
-     * Strong fundamentals of sensors
-
-     * Strong fundamentals of protection circuits
+     - PCB design using Eaglecad or equivalent software
+     - Experience of designing analog circuits that involve OPamp, filters
+     - Experience of designing micro-controller based circuits
+     - Strong fundamentals of sensors
+    - Strong fundamentals of protection circuits
 
    * Hardware skills (Desirable, not a must)
 
