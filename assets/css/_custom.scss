@@ -141,16 +141,21 @@ nav.scrolled {
 
 .opening .main-container p,
 .opening .main-container li {
-  line-height: 28px;
   font-weight: 400;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .hero-images {
     justify-content: center;
   }
 
   .hero-images img {
     max-height: 90px;
+  }
+
+  .lead p,
+  .lead li {
+    font-size: 13px;
+    line-height: 24px;
   }
 }
