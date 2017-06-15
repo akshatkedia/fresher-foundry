@@ -30,8 +30,10 @@ We are primarily looking for two things.
 
      - Experience of coding in C, C\+\+
      - Experience of firmware development
-     - Software skills (Desirable, not a must)
-     = Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
+    
+    Software skills (Desirable, not a must)
+
+     - Experience of working with Codewarrior (Freescale/NXP IDE) or Eclipse IDE
      - Experience of coding in Python and Java
      - Experience of using simulation software like Pspice or equivalent
      - Experience of working with HMI/Touch screen panels
