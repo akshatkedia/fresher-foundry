@@ -5,7 +5,6 @@ Who are we?: We are a bunch of engineers, designers, technology evangelists and 
   helping large organizations adopt emerging technologies.  We love solving real-world
   problems and build great products. We question everything, create and break swiftly
   and make things that matter.
-What are we looking for?: 
 Are you a fit text: |-
   We are primarily looking for two things.
 
