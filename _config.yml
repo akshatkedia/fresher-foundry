@@ -34,7 +34,7 @@ description: We help businesses adopt emerging technologies through roundtables,
 permalink: pretty
 url: https://www.futurefoundry.in
 markdown: kramdown
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 sass:
