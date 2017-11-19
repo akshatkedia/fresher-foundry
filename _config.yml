@@ -19,10 +19,10 @@ defaults:
     path: ''
     type: services
   values:
-    featured image:
+    featured image: 
     images:
-    - image:
-      caption:
+    - image: 
+      caption: 
 - scope:
     path: ''
     type: careers
@@ -63,4 +63,4 @@ address: |-
 logo: "/uploads/logo-dark.png"
 alternative logo: "/uploads/logo-light-c2ea60.png"
 linkedin: https://www.linkedin.com/company/future-foundry
-notice text:
+notice text: 
