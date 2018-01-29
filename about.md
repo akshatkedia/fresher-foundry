@@ -11,15 +11,25 @@ team:
   linkedin: https://in.linkedin.com/in/dgupta85
   facebook: https://www.facebook.com/deepak.gupta.5688
   position: Co-Founder
-- name: Mustafa Lokhandwala
-  image: "/uploads/1-ea505c.jpg"
-  linkedin: https://in.linkedin.com/in/lokhandwalamustafa
-  facebook: https://www.facebook.com/profile.php?id=1664054815&fref=ts
-  position: System Engineer
 - name: Hatim Saifee
   image: "/uploads/Hatim.JPG"
   linkedin: https://in.linkedin.com/in/hhshatimsaifee
   facebook: https://www.facebook.com/hhshatimsaifee
+  position: Senior System Engineer
+- name: Abinav Anantharaman
+  image: "/uploads/abinav%20small.jpg"
+  linkedin: https://www.linkedin.com/in/abinav-anantharaman-ba037a118/
+  facebook: https://www.facebook.com/abinav.ananthraman
+  position: System Engineer
+- name: Viraj Shah
+  image: "/uploads/viraj.jpg"
+  linkedin: https://www.linkedin.com/in/viraj-shah-381711104/
+  facebook: https://www.facebook.com/viraj.shah.96
+  position: System Engineer
+- name: Shubhanshu Gupta
+  image: "/uploads/Shubhanshu.jpeg"
+  linkedin: https://www.linkedin.com/in/shubhanshu-gupta-87116a10a/
+  facebook: https://www.facebook.com/shubhanshu.gupta.7374
   position: System Engineer
 advisors:
 - name: Yogesh Upadhyaya
