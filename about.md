@@ -16,7 +16,7 @@ team:
   linkedin: https://in.linkedin.com/in/hhshatimsaifee
   facebook: https://www.facebook.com/hhshatimsaifee
   position: Senior System Engineer
-- name: Abinav Anantharaman
+- name: Abinav A
   image: "/uploads/IMG_8346.JPG"
   linkedin: https://www.linkedin.com/in/abinav-anantharaman-ba037a118/
   facebook: https://www.facebook.com/abinav.ananthraman
@@ -27,7 +27,7 @@ team:
   facebook: https://www.facebook.com/viraj.shah.96
   position: System Engineer
 - name: Shubhanshu Gupta
-  image: 
+  image: "/uploads/Shubhanshu.jpeg"
   linkedin: https://www.linkedin.com/in/shubhanshu-gupta-87116a10a/
   facebook: https://www.facebook.com/shubhanshu.gupta.7374
   position: System Engineer
