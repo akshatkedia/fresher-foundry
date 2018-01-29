@@ -27,7 +27,7 @@ team:
   facebook: https://www.facebook.com/viraj.shah.96
   position: System Engineer
 - name: Shubhanshu Gupta
-  image: "/uploads/Shubhanshu.jpeg"
+  image: 
   linkedin: https://www.linkedin.com/in/shubhanshu-gupta-87116a10a/
   facebook: https://www.facebook.com/shubhanshu.gupta.7374
   position: System Engineer
