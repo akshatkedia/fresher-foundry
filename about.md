@@ -17,7 +17,7 @@ team:
   facebook: https://www.facebook.com/hhshatimsaifee
   position: Senior System Engineer
 - name: Abinav Anantharaman
-  image: "/uploads/abinav%20small.jpg"
+  image: "/uploads/IMG_8346.JPG"
   linkedin: https://www.linkedin.com/in/abinav-anantharaman-ba037a118/
   facebook: https://www.facebook.com/abinav.ananthraman
   position: System Engineer
