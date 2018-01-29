@@ -22,7 +22,7 @@ team:
   facebook: https://www.facebook.com/abinav.ananthraman
   position: System Engineer
 - name: Viraj Shah
-  image: "/uploads/viraj.jpg"
+  image: "/uploads/IMG-20170125-WA0008%5B1%5D.jpg"
   linkedin: https://www.linkedin.com/in/viraj-shah-381711104/
   facebook: https://www.facebook.com/viraj.shah.96
   position: System Engineer
